@@ -178,6 +178,7 @@
             }
         },
         "ACG": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_tag/#get-application-tags",
             "initialized": true,
             "method": "get",
             "name": "Application tag - Get all tags by application name",
@@ -743,6 +744,7 @@
         "AJh": {
             "body": "",
             "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/user__has__public_key/#remove-ssh-key",
             "initialized": true,
             "method": "delete_method",
             "name": "SSH Key - Remove SSH KKey",
@@ -1455,6 +1457,7 @@
                     "value": ""
                 }
             },
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_config_variable/#create-device-config-var",
             "initialized": true,
             "method": "post",
             "name": "Device config variable - Create a device config variable",
