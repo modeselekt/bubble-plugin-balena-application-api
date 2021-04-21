@@ -1,3 +1,12 @@
-This is a repository based on the [Bubble](https://bubble.io) plugin 'bubbalena.io'. This lets you use Github's functionality in terms of version control, forks and pull requests. Note that the the plugin code is stored on Bubble's servers, and you need to synchronize your repository in the Bubble Plugin Editor. 
+This is a repository based on the [Bubble](https://bubble.io) plugin 'bubbalena.io' (Bubble + Balena) ¯\_(ツ)_/¯.
 
- This plugin can be used in [Bubble applications](https://bubble.io).
+"Balena is a complete set of tools for building, deploying, and managing fleets of connected Linux devices." More info on the Balena platform can be found here:
+https://www.balena.io/what-is-balena 
+
+This plugin implements the Balena Cloud Application API and is useful for managing Balena Cloud functionality and devices from a Bubble.io applicaiton. 
+
+API Overview: https://www.balena.io/docs/reference/api/overview/
+
+Application API: https://www.balena.io/docs/reference/api/resources/application/
+
+This plugin can be used in [Bubble applications](https://bubble.io).
