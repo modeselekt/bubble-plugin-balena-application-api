@@ -1,0 +1,1528 @@
+{
+    "auth": "private_key_header",
+    "calls": {
+        "AAC": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application/#get-all-apps",
+            "initialized": true,
+            "method": "get",
+            "name": "Application - Get all applications",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AAC",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"Application - Get all application\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AAC.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AAC.d\":{\"caption\":\"Application - Get all applications d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1783790,\"path\":[\"id\"]},\"_p_organization.__id\":{\"ret_value\":\"number\",\"caption\":\"organization __id\",\"sample_value\":132488,\"path\":[\"organization\",\"__id\"]},\"_p_organization.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_depends_on__application\":{\"ret_value\":\"text\",\"caption\":\"depends_on__application\",\"sample_value\":null,\"path\":[\"depends_on__application\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":7061255,\"path\":[\"actor\"]},\"_p_app_name\":{\"ret_value\":\"text\",\"caption\":\"app_name\",\"sample_value\":\"balenaLocating\",\"path\":[\"app_name\"]},\"_p_slug\":{\"ret_value\":\"text\",\"caption\":\"slug\",\"sample_value\":\"balenalabs/balenalocating\",\"path\":[\"slug\"]},\"_p_should_be_running__release.__id\":{\"ret_value\":\"number\",\"caption\":\"should_be_running__release __id\",\"sample_value\":1681420,\"path\":[\"should_be_running__release\",\"__id\"]},\"_p_should_be_running__release.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_application_type.__id\":{\"ret_value\":\"number\",\"caption\":\"application_type __id\",\"sample_value\":4,\"path\":[\"application_type\",\"__id\"]},\"_p_application_type.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_is_for__device_type.__id\":{\"ret_value\":\"number\",\"caption\":\"is_for__device_type __id\",\"sample_value\":58,\"path\":[\"is_for__device_type\",\"__id\"]},\"_p_is_for__device_type.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_should_track_latest_release\":{\"ret_value\":\"boolean\",\"caption\":\"should_track_latest_release\",\"sample_value\":true,\"path\":[\"should_track_latest_release\"]},\"_p_is_accessible_by_support_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_accessible_by_support_until__date\",\"sample_value\":\"2021-03-05T12:45:10.876Z\",\"path\":[\"is_accessible_by_support_until__date\"]},\"_p_is_public\":{\"ret_value\":\"boolean\",\"caption\":\"is_public\",\"sample_value\":true,\"path\":[\"is_public\"]},\"_p_is_host\":{\"ret_value\":\"boolean\",\"caption\":\"is_host\",\"sample_value\":false,\"path\":[\"is_host\"]},\"_p_is_archived\":{\"ret_value\":\"boolean\",\"caption\":\"is_archived\",\"sample_value\":false,\"path\":[\"is_archived\"]},\"_p_is_discoverable\":{\"ret_value\":\"boolean\",\"caption\":\"is_discoverable\",\"sample_value\":true,\"path\":[\"is_discoverable\"]},\"_p_is_stored_at__repository_url\":{\"ret_value\":\"text\",\"caption\":\"is_stored_at__repository_url\",\"sample_value\":\"https://github.com/balenalabs-incubator/balena-locating\",\"path\":[\"is_stored_at__repository_url\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-01-15T12:15:59.433Z\",\"path\":[\"created_at\"]},\"_p_uuid\":{\"ret_value\":\"text\",\"caption\":\"uuid\",\"sample_value\":\"ade51cfa2f444d70b6f65cff5029db81\",\"path\":[\"uuid\"]},\"_p_is_of__class\":{\"ret_value\":\"text\",\"caption\":\"is_of__class\",\"sample_value\":\"fleet\",\"path\":[\"is_of__class\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"},\"_p_should_be_running__release\":{\"ret_value\":\"text\",\"caption\":\"should_be_running__release\",\"sample_value\":null,\"path\":[\"should_be_running__release\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/application"
+        },
+        "AAH": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application/#get-my-apps",
+            "initialized": true,
+            "method": "get",
+            "name": "Application - Get all applications associated with authenticated user",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AAH",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAH\":{\"caption\":\"Application - Get all applications associated with authenticated user\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AAH.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AAH.d\":{\"caption\":\"Application - Get all applications associated with authenticated user d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1818420,\"path\":[\"id\"]},\"_p_organization.__id\":{\"ret_value\":\"number\",\"caption\":\"organization __id\",\"sample_value\":152251,\"path\":[\"organization\",\"__id\"]},\"_p_organization.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"organization __deferred uri\",\"sample_value\":\"/resin/organization(@id)?@id=152251\",\"path\":[\"organization\",\"__deferred\",\"uri\"]},\"_p_depends_on__application\":{\"ret_value\":\"text\",\"caption\":\"depends_on__application\",\"sample_value\":null,\"path\":[\"depends_on__application\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":7224312,\"path\":[\"actor\"]},\"_p_app_name\":{\"ret_value\":\"text\",\"caption\":\"app_name\",\"sample_value\":\"CASASIL\",\"path\":[\"app_name\"]},\"_p_slug\":{\"ret_value\":\"text\",\"caption\":\"slug\",\"sample_value\":\"g_nicholas_squires/casasil\",\"path\":[\"slug\"]},\"_p_should_be_running__release\":{\"ret_value\":\"text\",\"caption\":\"should_be_running__release\",\"sample_value\":null,\"path\":[\"should_be_running__release\"]},\"_p_application_type.__id\":{\"ret_value\":\"number\",\"caption\":\"application_type __id\",\"sample_value\":5,\"path\":[\"application_type\",\"__id\"]},\"_p_application_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"application_type __deferred uri\",\"sample_value\":\"/resin/application_type(@id)?@id=5\",\"path\":[\"application_type\",\"__deferred\",\"uri\"]},\"_p_is_for__device_type.__id\":{\"ret_value\":\"number\",\"caption\":\"is_for__device_type __id\",\"sample_value\":59,\"path\":[\"is_for__device_type\",\"__id\"]},\"_p_is_for__device_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_for__device_type __deferred uri\",\"sample_value\":\"/resin/device_type(@id)?@id=59\",\"path\":[\"is_for__device_type\",\"__deferred\",\"uri\"]},\"_p_should_track_latest_release\":{\"ret_value\":\"boolean\",\"caption\":\"should_track_latest_release\",\"sample_value\":true,\"path\":[\"should_track_latest_release\"]},\"_p_is_accessible_by_support_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_accessible_by_support_until__date\",\"sample_value\":null,\"path\":[\"is_accessible_by_support_until__date\"]},\"_p_is_public\":{\"ret_value\":\"boolean\",\"caption\":\"is_public\",\"sample_value\":false,\"path\":[\"is_public\"]},\"_p_is_host\":{\"ret_value\":\"boolean\",\"caption\":\"is_host\",\"sample_value\":false,\"path\":[\"is_host\"]},\"_p_is_archived\":{\"ret_value\":\"boolean\",\"caption\":\"is_archived\",\"sample_value\":false,\"path\":[\"is_archived\"]},\"_p_is_discoverable\":{\"ret_value\":\"boolean\",\"caption\":\"is_discoverable\",\"sample_value\":true,\"path\":[\"is_discoverable\"]},\"_p_is_stored_at__repository_url\":{\"ret_value\":\"text\",\"caption\":\"is_stored_at__repository_url\",\"sample_value\":null,\"path\":[\"is_stored_at__repository_url\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-15T21:58:40.143Z\",\"path\":[\"created_at\"]},\"_p_uuid\":{\"ret_value\":\"text\",\"caption\":\"uuid\",\"sample_value\":\"71922a1d3a624e48918ec42dd611c7c7\",\"path\":[\"uuid\"]},\"_p_is_of__class\":{\"ret_value\":\"text\",\"caption\":\"is_of__class\",\"sample_value\":\"fleet\",\"path\":[\"is_of__class\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/application(@id)?@id=1818420\",\"path\":[\"__metadata\",\"uri\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/application?$filter=is_directly_accessible_by__user/any(dau:1%20eq%201)"
+        },
+        "AAO": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application/#app-by-id",
+            "initialized": true,
+            "method": "get",
+            "name": "Application - Get app by ID",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AAO",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAO\":{\"caption\":\"Application - Get app by ID\",\"fields\":{}}}",
+            "url": "https://api.balena-cloud.com/v6/application([app_id])",
+            "url_params": {
+                "ABS": {
+                    "doc": "Balena application ID",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAR": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application/#app-by-name",
+            "initialized": true,
+            "method": "get",
+            "name": "Application - Get application by name",
+            "publish_as": "data",
+            "rank": 3,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AAR",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAR\":{\"caption\":\"Application - Get application by name\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AAR.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AAR.d\":{\"caption\":\"Application - Get application by name d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1707975,\"path\":[\"id\"]},\"_p_organization.__id\":{\"ret_value\":\"number\",\"caption\":\"organization __id\",\"sample_value\":152251,\"path\":[\"organization\",\"__id\"]},\"_p_organization.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"organization __deferred uri\",\"sample_value\":\"/resin/organization(@id)?@id=152251\",\"path\":[\"organization\",\"__deferred\",\"uri\"]},\"_p_depends_on__application\":{\"ret_value\":\"text\",\"caption\":\"depends_on__application\",\"sample_value\":null,\"path\":[\"depends_on__application\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":6589546,\"path\":[\"actor\"]},\"_p_app_name\":{\"ret_value\":\"text\",\"caption\":\"app_name\",\"sample_value\":\"CASASIL\",\"path\":[\"app_name\"]},\"_p_slug\":{\"ret_value\":\"text\",\"caption\":\"slug\",\"sample_value\":\"g_nicholas_squires/casasil\",\"path\":[\"slug\"]},\"_p_should_be_running__release.__id\":{\"ret_value\":\"number\",\"caption\":\"should_be_running__release __id\",\"sample_value\":1493050,\"path\":[\"should_be_running__release\",\"__id\"]},\"_p_should_be_running__release.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"should_be_running__release __deferred uri\",\"sample_value\":\"/resin/release(@id)?@id=1493050\",\"path\":[\"should_be_running__release\",\"__deferred\",\"uri\"]},\"_p_application_type.__id\":{\"ret_value\":\"number\",\"caption\":\"application_type __id\",\"sample_value\":5,\"path\":[\"application_type\",\"__id\"]},\"_p_application_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"application_type __deferred uri\",\"sample_value\":\"/resin/application_type(@id)?@id=5\",\"path\":[\"application_type\",\"__deferred\",\"uri\"]},\"_p_is_for__device_type.__id\":{\"ret_value\":\"number\",\"caption\":\"is_for__device_type __id\",\"sample_value\":60,\"path\":[\"is_for__device_type\",\"__id\"]},\"_p_is_for__device_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_for__device_type __deferred uri\",\"sample_value\":\"/resin/device_type(@id)?@id=60\",\"path\":[\"is_for__device_type\",\"__deferred\",\"uri\"]},\"_p_should_track_latest_release\":{\"ret_value\":\"boolean\",\"caption\":\"should_track_latest_release\",\"sample_value\":true,\"path\":[\"should_track_latest_release\"]},\"_p_is_accessible_by_support_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_accessible_by_support_until__date\",\"sample_value\":null,\"path\":[\"is_accessible_by_support_until__date\"]},\"_p_is_public\":{\"ret_value\":\"boolean\",\"caption\":\"is_public\",\"sample_value\":false,\"path\":[\"is_public\"]},\"_p_is_host\":{\"ret_value\":\"boolean\",\"caption\":\"is_host\",\"sample_value\":false,\"path\":[\"is_host\"]},\"_p_is_archived\":{\"ret_value\":\"boolean\",\"caption\":\"is_archived\",\"sample_value\":false,\"path\":[\"is_archived\"]},\"_p_is_discoverable\":{\"ret_value\":\"boolean\",\"caption\":\"is_discoverable\",\"sample_value\":true,\"path\":[\"is_discoverable\"]},\"_p_is_stored_at__repository_url\":{\"ret_value\":\"text\",\"caption\":\"is_stored_at__repository_url\",\"sample_value\":null,\"path\":[\"is_stored_at__repository_url\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2020-07-22T19:03:31.585Z\",\"path\":[\"created_at\"]},\"_p_uuid\":{\"ret_value\":\"text\",\"caption\":\"uuid\",\"sample_value\":\"8b8cc7d5c8b8463aa09eda44e6f2a853\",\"path\":[\"uuid\"]},\"_p_is_of__class\":{\"ret_value\":\"text\",\"caption\":\"is_of__class\",\"sample_value\":\"fleet\",\"path\":[\"is_of__class\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/application(@id)?@id=1707975\",\"path\":[\"__metadata\",\"uri\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/application?$filter=app_name%20eq%20'[app_name]'",
+            "url_params": {
+                "ABE": {
+                    "key": "app_name",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAi": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application/#app-with-devices",
+            "initialized": true,
+            "method": "get",
+            "name": "Application - Get application by id along with its devices",
+            "publish_as": "data",
+            "rank": 4,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AAi",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAi\":{\"caption\":\"Application - Get application by id along with its device\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AAi.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AAi.d\":{\"caption\":\"Application - Get application by id along with its devices d\",\"fields\":{\"_p_owns__device\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AAi.owns__device\",\"caption\":\"owns__device\",\"path\":[\"owns__device\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1707975,\"path\":[\"id\"]},\"_p_organization.__id\":{\"ret_value\":\"number\",\"caption\":\"organization __id\",\"sample_value\":152251,\"path\":[\"organization\",\"__id\"]},\"_p_organization.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"organization __deferred uri\",\"sample_value\":\"/resin/organization(@id)?@id=152251\",\"path\":[\"organization\",\"__deferred\",\"uri\"]},\"_p_depends_on__application\":{\"ret_value\":\"text\",\"caption\":\"depends_on__application\",\"sample_value\":null,\"path\":[\"depends_on__application\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":6589546,\"path\":[\"actor\"]},\"_p_app_name\":{\"ret_value\":\"text\",\"caption\":\"app_name\",\"sample_value\":\"CASASIL\",\"path\":[\"app_name\"]},\"_p_slug\":{\"ret_value\":\"text\",\"caption\":\"slug\",\"sample_value\":\"g_nicholas_squires/casasil\",\"path\":[\"slug\"]},\"_p_should_be_running__release.__id\":{\"ret_value\":\"number\",\"caption\":\"should_be_running__release __id\",\"sample_value\":1493050,\"path\":[\"should_be_running__release\",\"__id\"]},\"_p_should_be_running__release.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"should_be_running__release __deferred uri\",\"sample_value\":\"/resin/release(@id)?@id=1493050\",\"path\":[\"should_be_running__release\",\"__deferred\",\"uri\"]},\"_p_application_type.__id\":{\"ret_value\":\"number\",\"caption\":\"application_type __id\",\"sample_value\":5,\"path\":[\"application_type\",\"__id\"]},\"_p_application_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"application_type __deferred uri\",\"sample_value\":\"/resin/application_type(@id)?@id=5\",\"path\":[\"application_type\",\"__deferred\",\"uri\"]},\"_p_is_for__device_type.__id\":{\"ret_value\":\"number\",\"caption\":\"is_for__device_type __id\",\"sample_value\":60,\"path\":[\"is_for__device_type\",\"__id\"]},\"_p_is_for__device_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_for__device_type __deferred uri\",\"sample_value\":\"/resin/device_type(@id)?@id=60\",\"path\":[\"is_for__device_type\",\"__deferred\",\"uri\"]},\"_p_should_track_latest_release\":{\"ret_value\":\"boolean\",\"caption\":\"should_track_latest_release\",\"sample_value\":true,\"path\":[\"should_track_latest_release\"]},\"_p_is_accessible_by_support_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_accessible_by_support_until__date\",\"sample_value\":null,\"path\":[\"is_accessible_by_support_until__date\"]},\"_p_is_public\":{\"ret_value\":\"boolean\",\"caption\":\"is_public\",\"sample_value\":false,\"path\":[\"is_public\"]},\"_p_is_host\":{\"ret_value\":\"boolean\",\"caption\":\"is_host\",\"sample_value\":false,\"path\":[\"is_host\"]},\"_p_is_archived\":{\"ret_value\":\"boolean\",\"caption\":\"is_archived\",\"sample_value\":false,\"path\":[\"is_archived\"]},\"_p_is_discoverable\":{\"ret_value\":\"boolean\",\"caption\":\"is_discoverable\",\"sample_value\":true,\"path\":[\"is_discoverable\"]},\"_p_is_stored_at__repository_url\":{\"ret_value\":\"text\",\"caption\":\"is_stored_at__repository_url\",\"sample_value\":null,\"path\":[\"is_stored_at__repository_url\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2020-07-22T19:03:31.585Z\",\"path\":[\"created_at\"]},\"_p_uuid\":{\"ret_value\":\"text\",\"caption\":\"uuid\",\"sample_value\":\"8b8cc7d5c8b8463aa09eda44e6f2a853\",\"path\":[\"uuid\"]},\"_p_is_of__class\":{\"ret_value\":\"text\",\"caption\":\"is_of__class\",\"sample_value\":\"fleet\",\"path\":[\"is_of__class\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/application(@id)?@id=1707975\",\"path\":[\"__metadata\",\"uri\"]}}},\"plugin_api.AAi.owns__device\":{\"caption\":\"Application - Get application by id along with its devices owns__device\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":3855641,\"path\":[\"id\"]},\"_p_belongs_to__application.__id\":{\"ret_value\":\"number\",\"caption\":\"belongs_to__application __id\",\"sample_value\":1707975,\"path\":[\"belongs_to__application\",\"__id\"]},\"_p_belongs_to__application.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"belongs_to__application __deferred uri\",\"sample_value\":\"/resin/application(@id)?@id=1707975\",\"path\":[\"belongs_to__application\",\"__deferred\",\"uri\"]},\"_p_belongs_to__user\":{\"ret_value\":\"text\",\"caption\":\"belongs_to__user\",\"sample_value\":null,\"path\":[\"belongs_to__user\"]},\"_p_is_managed_by__device\":{\"ret_value\":\"text\",\"caption\":\"is_managed_by__device\",\"sample_value\":null,\"path\":[\"is_managed_by__device\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":6624910,\"path\":[\"actor\"]},\"_p_should_be_running__release\":{\"ret_value\":\"text\",\"caption\":\"should_be_running__release\",\"sample_value\":null,\"path\":[\"should_be_running__release\"]},\"_p_device_name\":{\"ret_value\":\"text\",\"caption\":\"device_name\",\"sample_value\":\"electron\",\"path\":[\"device_name\"]},\"_p_is_of__device_type.__id\":{\"ret_value\":\"number\",\"caption\":\"is_of__device_type __id\",\"sample_value\":60,\"path\":[\"is_of__device_type\",\"__id\"]},\"_p_is_of__device_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_of__device_type __deferred uri\",\"sample_value\":\"/resin/device_type(@id)?@id=60\",\"path\":[\"is_of__device_type\",\"__deferred\",\"uri\"]},\"_p_uuid\":{\"ret_value\":\"text\",\"caption\":\"uuid\",\"sample_value\":\"716a2eb660805ea489ddc889e10beca1\",\"path\":[\"uuid\"]},\"_p_is_running__release.__id\":{\"ret_value\":\"number\",\"caption\":\"is_running__release __id\",\"sample_value\":1493050,\"path\":[\"is_running__release\",\"__id\"]},\"_p_is_running__release.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_running__release __deferred uri\",\"sample_value\":\"/resin/release(@id)?@id=1493050\",\"path\":[\"is_running__release\",\"__deferred\",\"uri\"]},\"_p_note\":{\"ret_value\":\"text\",\"caption\":\"note\",\"sample_value\":\"RPi B 2GB\",\"path\":[\"note\"]},\"_p_local_id\":{\"ret_value\":\"text\",\"caption\":\"local_id\",\"sample_value\":null,\"path\":[\"local_id\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"Idle\",\"path\":[\"status\"]},\"_p_is_online\":{\"ret_value\":\"boolean\",\"caption\":\"is_online\",\"sample_value\":false,\"path\":[\"is_online\"]},\"_p_last_connectivity_event\":{\"ret_value\":\"text\",\"caption\":\"last_connectivity_event\",\"sample_value\":\"2021-03-15T15:29:56.998Z\",\"path\":[\"last_connectivity_event\"]},\"_p_is_connected_to_vpn\":{\"ret_value\":\"boolean\",\"caption\":\"is_connected_to_vpn\",\"sample_value\":false,\"path\":[\"is_connected_to_vpn\"]},\"_p_last_vpn_event\":{\"ret_value\":\"text\",\"caption\":\"last_vpn_event\",\"sample_value\":\"2021-03-15T15:29:56.998Z\",\"path\":[\"last_vpn_event\"]},\"_p_ip_address\":{\"ret_value\":\"text\",\"caption\":\"ip_address\",\"sample_value\":\"192.168.1.181\",\"path\":[\"ip_address\"]},\"_p_mac_address\":{\"ret_value\":\"text\",\"caption\":\"mac_address\",\"sample_value\":\"DC:A6:32:B6:EC:C9 DC:A6:32:B6:EC:CA\",\"path\":[\"mac_address\"]},\"_p_vpn_address\":{\"ret_value\":\"text\",\"caption\":\"vpn_address\",\"sample_value\":\"10.240.27.33\",\"path\":[\"vpn_address\"]},\"_p_public_address\":{\"ret_value\":\"text\",\"caption\":\"public_address\",\"sample_value\":\"98.116.39.155\",\"path\":[\"public_address\"]},\"_p_os_version\":{\"ret_value\":\"text\",\"caption\":\"os_version\",\"sample_value\":\"balenaOS 2.65.0+rev1\",\"path\":[\"os_version\"]},\"_p_os_variant\":{\"ret_value\":\"text\",\"caption\":\"os_variant\",\"sample_value\":\"dev\",\"path\":[\"os_variant\"]},\"_p_supervisor_version\":{\"ret_value\":\"text\",\"caption\":\"supervisor_version\",\"sample_value\":\"12.3.0\",\"path\":[\"supervisor_version\"]},\"_p_should_be_managed_by__supervisor_release.__id\":{\"ret_value\":\"number\",\"caption\":\"should_be_managed_by__supervisor_release __id\",\"sample_value\":1658440,\"path\":[\"should_be_managed_by__supervisor_release\",\"__id\"]},\"_p_should_be_managed_by__supervisor_release.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"should_be_managed_by__supervisor_release __deferred uri\",\"sample_value\":\"/resin/supervisor_release(@id)?@id=1658440\",\"path\":[\"should_be_managed_by__supervisor_release\",\"__deferred\",\"uri\"]},\"_p_is_managed_by__service_instance.__id\":{\"ret_value\":\"number\",\"caption\":\"is_managed_by__service_instance __id\",\"sample_value\":124466,\"path\":[\"is_managed_by__service_instance\",\"__id\"]},\"_p_is_managed_by__service_instance.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_managed_by__service_instance __deferred uri\",\"sample_value\":\"/resin/service_instance(@id)?@id=124466\",\"path\":[\"is_managed_by__service_instance\",\"__deferred\",\"uri\"]},\"_p_provisioning_progress\":{\"ret_value\":\"text\",\"caption\":\"provisioning_progress\",\"sample_value\":null,\"path\":[\"provisioning_progress\"]},\"_p_provisioning_state\":{\"ret_value\":\"text\",\"caption\":\"provisioning_state\",\"sample_value\":\"\",\"path\":[\"provisioning_state\"]},\"_p_download_progress\":{\"ret_value\":\"text\",\"caption\":\"download_progress\",\"sample_value\":null,\"path\":[\"download_progress\"]},\"_p_is_web_accessible\":{\"ret_value\":\"boolean\",\"caption\":\"is_web_accessible\",\"sample_value\":false,\"path\":[\"is_web_accessible\"]},\"_p_longitude\":{\"ret_value\":\"text\",\"caption\":\"longitude\",\"sample_value\":\"-73.9401\",\"path\":[\"longitude\"]},\"_p_latitude\":{\"ret_value\":\"text\",\"caption\":\"latitude\",\"sample_value\":\"40.647\",\"path\":[\"latitude\"]},\"_p_location\":{\"ret_value\":\"text\",\"caption\":\"location\",\"sample_value\":\"Brooklyn, New York, United States\",\"path\":[\"location\"]},\"_p_custom_longitude\":{\"ret_value\":\"text\",\"caption\":\"custom_longitude\",\"sample_value\":\"\",\"path\":[\"custom_longitude\"]},\"_p_custom_latitude\":{\"ret_value\":\"text\",\"caption\":\"custom_latitude\",\"sample_value\":\"\",\"path\":[\"custom_latitude\"]},\"_p_logs_channel\":{\"ret_value\":\"text\",\"caption\":\"logs_channel\",\"sample_value\":null,\"path\":[\"logs_channel\"]},\"_p_is_locked_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_locked_until__date\",\"sample_value\":null,\"path\":[\"is_locked_until__date\"]},\"_p_is_accessible_by_support_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_accessible_by_support_until__date\",\"sample_value\":null,\"path\":[\"is_accessible_by_support_until__date\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2020-07-27T18:44:16.405Z\",\"path\":[\"created_at\"]},\"_p_is_active\":{\"ret_value\":\"boolean\",\"caption\":\"is_active\",\"sample_value\":true,\"path\":[\"is_active\"]},\"_p_api_heartbeat_state\":{\"ret_value\":\"text\",\"caption\":\"api_heartbeat_state\",\"sample_value\":\"offline\",\"path\":[\"api_heartbeat_state\"]},\"_p_memory_usage\":{\"ret_value\":\"number\",\"caption\":\"memory_usage\",\"sample_value\":421,\"path\":[\"memory_usage\"]},\"_p_memory_total\":{\"ret_value\":\"number\",\"caption\":\"memory_total\",\"sample_value\":1901,\"path\":[\"memory_total\"]},\"_p_storage_block_device\":{\"ret_value\":\"text\",\"caption\":\"storage_block_device\",\"sample_value\":\"/dev/mmcblk0\",\"path\":[\"storage_block_device\"]},\"_p_storage_usage\":{\"ret_value\":\"number\",\"caption\":\"storage_usage\",\"sample_value\":615,\"path\":[\"storage_usage\"]},\"_p_storage_total\":{\"ret_value\":\"number\",\"caption\":\"storage_total\",\"sample_value\":29260,\"path\":[\"storage_total\"]},\"_p_cpu_temp\":{\"ret_value\":\"number\",\"caption\":\"cpu_temp\",\"sample_value\":70,\"path\":[\"cpu_temp\"]},\"_p_cpu_usage\":{\"ret_value\":\"number\",\"caption\":\"cpu_usage\",\"sample_value\":3,\"path\":[\"cpu_usage\"]},\"_p_cpu_id\":{\"ret_value\":\"text\",\"caption\":\"cpu_id\",\"sample_value\":\"1000000004f896a\",\"path\":[\"cpu_id\"]},\"_p_is_undervolted\":{\"ret_value\":\"boolean\",\"caption\":\"is_undervolted\",\"sample_value\":false,\"path\":[\"is_undervolted\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/device(@id)?@id=3855641\",\"path\":[\"__metadata\",\"uri\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/application([app_id])?$expand=owns__device",
+            "url_params": {
+                "ABM": {
+                    "doc": "Balena application ID",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ABT": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application/#app-filter-public",
+            "initialized": true,
+            "method": "get",
+            "name": "Application - Filter public applications from returned applications",
+            "publish_as": "data",
+            "rank": 5,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.ABT",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABT\":{\"caption\":\"Application - Filter public applications from returned application\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.ABT.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.ABT.d\":{\"caption\":\"Application - Filter public applications from returned applications d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1707975,\"path\":[\"id\"]},\"_p_organization.__id\":{\"ret_value\":\"number\",\"caption\":\"organization __id\",\"sample_value\":152251,\"path\":[\"organization\",\"__id\"]},\"_p_organization.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"organization __deferred uri\",\"sample_value\":\"/resin/organization(@id)?@id=152251\",\"path\":[\"organization\",\"__deferred\",\"uri\"]},\"_p_depends_on__application\":{\"ret_value\":\"text\",\"caption\":\"depends_on__application\",\"sample_value\":null,\"path\":[\"depends_on__application\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":6589546,\"path\":[\"actor\"]},\"_p_app_name\":{\"ret_value\":\"text\",\"caption\":\"app_name\",\"sample_value\":\"CASASIL\",\"path\":[\"app_name\"]},\"_p_slug\":{\"ret_value\":\"text\",\"caption\":\"slug\",\"sample_value\":\"g_nicholas_squires/casasil\",\"path\":[\"slug\"]},\"_p_should_be_running__release.__id\":{\"ret_value\":\"number\",\"caption\":\"should_be_running__release __id\",\"sample_value\":1493050,\"path\":[\"should_be_running__release\",\"__id\"]},\"_p_should_be_running__release.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"should_be_running__release __deferred uri\",\"sample_value\":\"/resin/release(@id)?@id=1493050\",\"path\":[\"should_be_running__release\",\"__deferred\",\"uri\"]},\"_p_application_type.__id\":{\"ret_value\":\"number\",\"caption\":\"application_type __id\",\"sample_value\":5,\"path\":[\"application_type\",\"__id\"]},\"_p_application_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"application_type __deferred uri\",\"sample_value\":\"/resin/application_type(@id)?@id=5\",\"path\":[\"application_type\",\"__deferred\",\"uri\"]},\"_p_is_for__device_type.__id\":{\"ret_value\":\"number\",\"caption\":\"is_for__device_type __id\",\"sample_value\":60,\"path\":[\"is_for__device_type\",\"__id\"]},\"_p_is_for__device_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_for__device_type __deferred uri\",\"sample_value\":\"/resin/device_type(@id)?@id=60\",\"path\":[\"is_for__device_type\",\"__deferred\",\"uri\"]},\"_p_should_track_latest_release\":{\"ret_value\":\"boolean\",\"caption\":\"should_track_latest_release\",\"sample_value\":true,\"path\":[\"should_track_latest_release\"]},\"_p_is_accessible_by_support_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_accessible_by_support_until__date\",\"sample_value\":null,\"path\":[\"is_accessible_by_support_until__date\"]},\"_p_is_public\":{\"ret_value\":\"boolean\",\"caption\":\"is_public\",\"sample_value\":false,\"path\":[\"is_public\"]},\"_p_is_host\":{\"ret_value\":\"boolean\",\"caption\":\"is_host\",\"sample_value\":false,\"path\":[\"is_host\"]},\"_p_is_archived\":{\"ret_value\":\"boolean\",\"caption\":\"is_archived\",\"sample_value\":false,\"path\":[\"is_archived\"]},\"_p_is_discoverable\":{\"ret_value\":\"boolean\",\"caption\":\"is_discoverable\",\"sample_value\":true,\"path\":[\"is_discoverable\"]},\"_p_is_stored_at__repository_url\":{\"ret_value\":\"text\",\"caption\":\"is_stored_at__repository_url\",\"sample_value\":null,\"path\":[\"is_stored_at__repository_url\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2020-07-22T19:03:31.585Z\",\"path\":[\"created_at\"]},\"_p_uuid\":{\"ret_value\":\"text\",\"caption\":\"uuid\",\"sample_value\":\"8b8cc7d5c8b8463aa09eda44e6f2a853\",\"path\":[\"uuid\"]},\"_p_is_of__class\":{\"ret_value\":\"text\",\"caption\":\"is_of__class\",\"sample_value\":\"fleet\",\"path\":[\"is_of__class\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/application(@id)?@id=1707975\",\"path\":[\"__metadata\",\"uri\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/application?$filter=is_public%20eq%20false"
+        },
+        "ABV": {
+            "body": "{\n\t\"app_name\": \"<app_name>\",\n    \"device_type\": \"<device_type>\"\n}",
+            "body_params": {
+                "ABd": {
+                    "doc": "Name of the new Balena Application you want to create",
+                    "key": "app_name",
+                    "private": true,
+                    "value": ""
+                },
+                "ABo": {
+                    "doc": "A Balena supported \"device type\" (Balena documentation references this as \"Machine Name\" at the link below):\n\nhttps://www.balena.io/docs/reference/hardware/devices/\n\nEx. fincm3, beaglebone-black, raspberrypi3-64",
+                    "key": "device_type",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application/#create-app",
+            "initialized": true,
+            "method": "post",
+            "name": "Application - Create Application",
+            "publish_as": "data",
+            "rank": 6,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.ABV",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABV\":{\"caption\":\"Application - Create Application\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1817459,\"path\":[\"id\"]},\"_p_organization.__id\":{\"ret_value\":\"number\",\"caption\":\"organization __id\",\"sample_value\":152251,\"path\":[\"organization\",\"__id\"]},\"_p_organization.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"organization __deferred uri\",\"sample_value\":\"/resin/organization(@id)?@id=152251\",\"path\":[\"organization\",\"__deferred\",\"uri\"]},\"_p_depends_on__application\":{\"ret_value\":\"text\",\"caption\":\"depends_on__application\",\"sample_value\":null,\"path\":[\"depends_on__application\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":7219953,\"path\":[\"actor\"]},\"_p_app_name\":{\"ret_value\":\"text\",\"caption\":\"app_name\",\"sample_value\":\"TESTAPP\",\"path\":[\"app_name\"]},\"_p_slug\":{\"ret_value\":\"text\",\"caption\":\"slug\",\"sample_value\":\"g_nicholas_squires/testapp\",\"path\":[\"slug\"]},\"_p_should_be_running__release\":{\"ret_value\":\"text\",\"caption\":\"should_be_running__release\",\"sample_value\":null,\"path\":[\"should_be_running__release\"]},\"_p_application_type.__id\":{\"ret_value\":\"number\",\"caption\":\"application_type __id\",\"sample_value\":5,\"path\":[\"application_type\",\"__id\"]},\"_p_application_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"application_type __deferred uri\",\"sample_value\":\"/resin/application_type(@id)?@id=5\",\"path\":[\"application_type\",\"__deferred\",\"uri\"]},\"_p_is_for__device_type.__id\":{\"ret_value\":\"number\",\"caption\":\"is_for__device_type __id\",\"sample_value\":59,\"path\":[\"is_for__device_type\",\"__id\"]},\"_p_is_for__device_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_for__device_type __deferred uri\",\"sample_value\":\"/resin/device_type(@id)?@id=59\",\"path\":[\"is_for__device_type\",\"__deferred\",\"uri\"]},\"_p_should_track_latest_release\":{\"ret_value\":\"boolean\",\"caption\":\"should_track_latest_release\",\"sample_value\":true,\"path\":[\"should_track_latest_release\"]},\"_p_is_accessible_by_support_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_accessible_by_support_until__date\",\"sample_value\":null,\"path\":[\"is_accessible_by_support_until__date\"]},\"_p_is_public\":{\"ret_value\":\"boolean\",\"caption\":\"is_public\",\"sample_value\":false,\"path\":[\"is_public\"]},\"_p_is_host\":{\"ret_value\":\"boolean\",\"caption\":\"is_host\",\"sample_value\":false,\"path\":[\"is_host\"]},\"_p_is_archived\":{\"ret_value\":\"boolean\",\"caption\":\"is_archived\",\"sample_value\":false,\"path\":[\"is_archived\"]},\"_p_is_discoverable\":{\"ret_value\":\"boolean\",\"caption\":\"is_discoverable\",\"sample_value\":true,\"path\":[\"is_discoverable\"]},\"_p_is_stored_at__repository_url\":{\"ret_value\":\"text\",\"caption\":\"is_stored_at__repository_url\",\"sample_value\":null,\"path\":[\"is_stored_at__repository_url\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-13T23:15:09.736Z\",\"path\":[\"created_at\"]},\"_p_uuid\":{\"ret_value\":\"text\",\"caption\":\"uuid\",\"sample_value\":\"ab3fad21ca66401fb851de1b64ea3792\",\"path\":[\"uuid\"]},\"_p_is_of__class\":{\"ret_value\":\"text\",\"caption\":\"is_of__class\",\"sample_value\":\"fleet\",\"path\":[\"is_of__class\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/application(@id)?@id=1817459\",\"path\":[\"__metadata\",\"uri\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/application"
+        },
+        "ABp": {
+            "body_type": "json",
+            "data_type": "empty",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application/#delete-app",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Application - Delete Application",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 7,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/application([app_id])",
+            "url_params": {
+                "ABt": {
+                    "doc": "Balena application ID",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ABu": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_membership_role/#get-application-membership_role",
+            "initialized": true,
+            "method": "get",
+            "name": "Application membership role - Get all application membership roles",
+            "publish_as": "data",
+            "rank": 9,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.ABu",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABu\":{\"caption\":\"Application membership role - Get all application membership role\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.ABu.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.ABu.d\":{\"caption\":\"Application membership role - Get all application membership roles d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1,\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"collaborator\",\"path\":[\"name\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/application_membership_role(@id)?@id=1\",\"path\":[\"__metadata\",\"uri\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/application_membership_role"
+        },
+        "ABv": {
+            "body": "{\n    \"should_track_latest_release\": true\n}",
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application/#enable-auto-update",
+            "initialized": true,
+            "method": "patch",
+            "name": "Application - Enable automatic update tracking for an application",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 8,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/application([app_id])",
+            "url_params": {
+                "ACD": {
+                    "doc": "Balena application ID",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ACG": {
+            "initialized": true,
+            "method": "get",
+            "name": "Application tag - Get all tags by application name",
+            "publish_as": "data",
+            "rank": 10,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.ACG",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ACG\":{\"caption\":\"Application tag - Get all tags by application name\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.ACG.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.ACG.d\":{\"caption\":\"Application tag - Get all tags by application name d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":61722,\"path\":[\"id\"]},\"_p_application.__id\":{\"ret_value\":\"number\",\"caption\":\"application __id\",\"sample_value\":1818420,\"path\":[\"application\",\"__id\"]},\"_p_application.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"application __deferred uri\",\"sample_value\":\"/resin/application(@id)?@id=1818420\",\"path\":[\"application\",\"__deferred\",\"uri\"]},\"_p_tag_key\":{\"ret_value\":\"text\",\"caption\":\"tag_key\",\"sample_value\":\"testter\",\"path\":[\"tag_key\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"1234\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/application_tag(@id)?@id=61722\",\"path\":[\"__metadata\",\"uri\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/application_tag?$filter=application/app_name%20eq%20'[app_name]'",
+            "url_params": {
+                "ACS": {
+                    "doc": "Balena application name (Case sensitive)",
+                    "key": "app_name",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ACU": {
+            "body": "{\n    \"application\": \"<app_id>\",\n    \"tag_key\": \"<key>\",\n    \"value\": \"<value>\"\n}",
+            "body_params": {
+                "ACi": {
+                    "doc": "Balena application ID",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                },
+                "ACl": {
+                    "doc": "New key name",
+                    "key": "key",
+                    "private": true,
+                    "value": ""
+                },
+                "ACq": {
+                    "doc": "Value",
+                    "key": "value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_tag/#get-application-tags",
+            "initialized": true,
+            "method": "post",
+            "name": "Application tag - Create a new application tag",
+            "publish_as": "data",
+            "rank": 11,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.ACU",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ACU\":{\"caption\":\"Application tag - Get all tags by application name\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":61722,\"path\":[\"id\"]},\"_p_application.__id\":{\"ret_value\":\"number\",\"caption\":\"application __id\",\"sample_value\":1818420,\"path\":[\"application\",\"__id\"]},\"_p_application.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"application __deferred uri\",\"sample_value\":\"/resin/application(@id)?@id=1818420\",\"path\":[\"application\",\"__deferred\",\"uri\"]},\"_p_tag_key\":{\"ret_value\":\"text\",\"caption\":\"tag_key\",\"sample_value\":\"testter\",\"path\":[\"tag_key\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"1234\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/application_tag(@id)?@id=61722\",\"path\":[\"__metadata\",\"uri\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/application_tag"
+        },
+        "ADU": {
+            "body": "{\n    \"value\": \"<new_value>\"\n}",
+            "body_params": {
+                "ADk": {
+                    "doc": "Value you want to set for tag with \"tag_id\".",
+                    "key": "new_value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_tag/#update-application-tag",
+            "initialized": true,
+            "method": "patch",
+            "name": "Application tag - Update an application tag",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 12,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/application_tag([tag_id])",
+            "url_params": {
+                "ADl": {
+                    "key": "tag_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ADn": {
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_tag/#delete-application-tag",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Application tag - Delete an application tag",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 13,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/application_tag([tag_id])",
+            "url_params": {
+                "ADt": {
+                    "doc": "Value you want to set for tag with \"tag_id\".",
+                    "key": "tag_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ADv": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/api_key/#get-api-keys",
+            "initialized": true,
+            "method": "get",
+            "name": "API Key - Get all API keys",
+            "publish_as": "data",
+            "rank": 14,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.ADv",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ADv\":{\"caption\":\"API Key - Get all API key\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.ADv.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.ADv.d\":{\"caption\":\"API Key - Get all API keys d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":3855981,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-13T20:24:16.172Z\",\"path\":[\"created_at\"]},\"_p_is_of__actor.__id\":{\"ret_value\":\"text\",\"caption\":\"is_of__actor __id\",\"sample_value\":6589539,\"path\":[\"is_of__actor\",\"__id\"]},\"_p_is_of__actor.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_of__actor __deferred uri\",\"sample_value\":\"/resin/actor(@id)?@id=6589539\",\"path\":[\"is_of__actor\",\"__deferred\",\"uri\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Bubble key\",\"path\":[\"name\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Key for connecting with bubble\",\"path\":[\"description\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/api_key(@id)?@id=3855981\",\"path\":[\"__metadata\",\"uri\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/api_key"
+        },
+        "AEa": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device/#get-devices",
+            "initialized": true,
+            "method": "get",
+            "name": "Device - Get all devices",
+            "publish_as": "data",
+            "rank": 15,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AEa",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AEa\":{\"caption\":\"Device - Get all device\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AEa.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AEa.d\":{\"caption\":\"Device - Get all devices d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":4197064,\"path\":[\"id\"]},\"_p_belongs_to__application.__id\":{\"ret_value\":\"text\",\"caption\":\"belongs_to__application __id\",\"sample_value\":1818420,\"path\":[\"belongs_to__application\",\"__id\"]},\"_p_belongs_to__application.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"belongs_to__application __deferred uri\",\"sample_value\":\"/resin/application(@id)?@id=1818420\",\"path\":[\"belongs_to__application\",\"__deferred\",\"uri\"]},\"_p_belongs_to__user\":{\"ret_value\":\"text\",\"caption\":\"belongs_to__user\",\"sample_value\":null,\"path\":[\"belongs_to__user\"]},\"_p_is_managed_by__device\":{\"ret_value\":\"text\",\"caption\":\"is_managed_by__device\",\"sample_value\":null,\"path\":[\"is_managed_by__device\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":7224395,\"path\":[\"actor\"]},\"_p_should_be_running__release\":{\"ret_value\":\"text\",\"caption\":\"should_be_running__release\",\"sample_value\":null,\"path\":[\"should_be_running__release\"]},\"_p_device_name\":{\"ret_value\":\"text\",\"caption\":\"device_name\",\"sample_value\":\"electron\",\"path\":[\"device_name\"]},\"_p_is_of__device_type.__id\":{\"ret_value\":\"number\",\"caption\":\"is_of__device_type __id\",\"sample_value\":60,\"path\":[\"is_of__device_type\",\"__id\"]},\"_p_is_of__device_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_of__device_type __deferred uri\",\"sample_value\":\"/resin/device_type(@id)?@id=60\",\"path\":[\"is_of__device_type\",\"__deferred\",\"uri\"]},\"_p_uuid\":{\"ret_value\":\"text\",\"caption\":\"uuid\",\"sample_value\":\"d9dbfd2f487af8bc7a627d2a884e91a5\",\"path\":[\"uuid\"]},\"_p_is_running__release\":{\"ret_value\":\"text\",\"caption\":\"is_running__release\",\"sample_value\":null,\"path\":[\"is_running__release\"]},\"_p_note\":{\"ret_value\":\"text\",\"caption\":\"note\",\"sample_value\":null,\"path\":[\"note\"]},\"_p_local_id\":{\"ret_value\":\"text\",\"caption\":\"local_id\",\"sample_value\":null,\"path\":[\"local_id\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"Idle\",\"path\":[\"status\"]},\"_p_is_online\":{\"ret_value\":\"boolean\",\"caption\":\"is_online\",\"sample_value\":true,\"path\":[\"is_online\"]},\"_p_last_connectivity_event\":{\"ret_value\":\"text\",\"caption\":\"last_connectivity_event\",\"sample_value\":\"2021-04-15T22:54:16.214Z\",\"path\":[\"last_connectivity_event\"]},\"_p_is_connected_to_vpn\":{\"ret_value\":\"boolean\",\"caption\":\"is_connected_to_vpn\",\"sample_value\":true,\"path\":[\"is_connected_to_vpn\"]},\"_p_last_vpn_event\":{\"ret_value\":\"text\",\"caption\":\"last_vpn_event\",\"sample_value\":\"2021-04-15T22:54:16.214Z\",\"path\":[\"last_vpn_event\"]},\"_p_ip_address\":{\"ret_value\":\"text\",\"caption\":\"ip_address\",\"sample_value\":\"192.168.1.184\",\"path\":[\"ip_address\"]},\"_p_mac_address\":{\"ret_value\":\"text\",\"caption\":\"mac_address\",\"sample_value\":\"DC:A6:32:89:75:4E DC:A6:32:89:75:50\",\"path\":[\"mac_address\"]},\"_p_vpn_address\":{\"ret_value\":\"text\",\"caption\":\"vpn_address\",\"sample_value\":\"10.240.63.126\",\"path\":[\"vpn_address\"]},\"_p_public_address\":{\"ret_value\":\"text\",\"caption\":\"public_address\",\"sample_value\":\"98.116.39.155\",\"path\":[\"public_address\"]},\"_p_os_version\":{\"ret_value\":\"text\",\"caption\":\"os_version\",\"sample_value\":\"balenaOS 2.73.1+rev1\",\"path\":[\"os_version\"]},\"_p_os_variant\":{\"ret_value\":\"text\",\"caption\":\"os_variant\",\"sample_value\":\"prod\",\"path\":[\"os_variant\"]},\"_p_supervisor_version\":{\"ret_value\":\"text\",\"caption\":\"supervisor_version\",\"sample_value\":\"12.4.6\",\"path\":[\"supervisor_version\"]},\"_p_should_be_managed_by__supervisor_release.__id\":{\"ret_value\":\"number\",\"caption\":\"should_be_managed_by__supervisor_release __id\",\"sample_value\":1732371,\"path\":[\"should_be_managed_by__supervisor_release\",\"__id\"]},\"_p_should_be_managed_by__supervisor_release.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"should_be_managed_by__supervisor_release __deferred uri\",\"sample_value\":\"/resin/supervisor_release(@id)?@id=1732371\",\"path\":[\"should_be_managed_by__supervisor_release\",\"__deferred\",\"uri\"]},\"_p_is_managed_by__service_instance.__id\":{\"ret_value\":\"number\",\"caption\":\"is_managed_by__service_instance __id\",\"sample_value\":124474,\"path\":[\"is_managed_by__service_instance\",\"__id\"]},\"_p_is_managed_by__service_instance.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_managed_by__service_instance __deferred uri\",\"sample_value\":\"/resin/service_instance(@id)?@id=124474\",\"path\":[\"is_managed_by__service_instance\",\"__deferred\",\"uri\"]},\"_p_provisioning_progress\":{\"ret_value\":\"text\",\"caption\":\"provisioning_progress\",\"sample_value\":null,\"path\":[\"provisioning_progress\"]},\"_p_provisioning_state\":{\"ret_value\":\"text\",\"caption\":\"provisioning_state\",\"sample_value\":\"\",\"path\":[\"provisioning_state\"]},\"_p_download_progress\":{\"ret_value\":\"text\",\"caption\":\"download_progress\",\"sample_value\":null,\"path\":[\"download_progress\"]},\"_p_is_web_accessible\":{\"ret_value\":\"boolean\",\"caption\":\"is_web_accessible\",\"sample_value\":false,\"path\":[\"is_web_accessible\"]},\"_p_longitude\":{\"ret_value\":\"text\",\"caption\":\"longitude\",\"sample_value\":\"-73.9591\",\"path\":[\"longitude\"]},\"_p_latitude\":{\"ret_value\":\"text\",\"caption\":\"latitude\",\"sample_value\":\"40.7099\",\"path\":[\"latitude\"]},\"_p_location\":{\"ret_value\":\"text\",\"caption\":\"location\",\"sample_value\":\"Brooklyn, New York, United States\",\"path\":[\"location\"]},\"_p_custom_longitude\":{\"ret_value\":\"text\",\"caption\":\"custom_longitude\",\"sample_value\":\"\",\"path\":[\"custom_longitude\"]},\"_p_custom_latitude\":{\"ret_value\":\"text\",\"caption\":\"custom_latitude\",\"sample_value\":\"\",\"path\":[\"custom_latitude\"]},\"_p_logs_channel\":{\"ret_value\":\"text\",\"caption\":\"logs_channel\",\"sample_value\":null,\"path\":[\"logs_channel\"]},\"_p_is_locked_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_locked_until__date\",\"sample_value\":null,\"path\":[\"is_locked_until__date\"]},\"_p_is_accessible_by_support_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_accessible_by_support_until__date\",\"sample_value\":null,\"path\":[\"is_accessible_by_support_until__date\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-15T22:54:05.842Z\",\"path\":[\"created_at\"]},\"_p_is_active\":{\"ret_value\":\"boolean\",\"caption\":\"is_active\",\"sample_value\":true,\"path\":[\"is_active\"]},\"_p_api_heartbeat_state\":{\"ret_value\":\"text\",\"caption\":\"api_heartbeat_state\",\"sample_value\":\"online\",\"path\":[\"api_heartbeat_state\"]},\"_p_memory_usage\":{\"ret_value\":\"number\",\"caption\":\"memory_usage\",\"sample_value\":241,\"path\":[\"memory_usage\"]},\"_p_memory_total\":{\"ret_value\":\"number\",\"caption\":\"memory_total\",\"sample_value\":3845,\"path\":[\"memory_total\"]},\"_p_storage_block_device\":{\"ret_value\":\"text\",\"caption\":\"storage_block_device\",\"sample_value\":\"/dev/mmcblk0\",\"path\":[\"storage_block_device\"]},\"_p_storage_usage\":{\"ret_value\":\"number\",\"caption\":\"storage_usage\",\"sample_value\":88,\"path\":[\"storage_usage\"]},\"_p_storage_total\":{\"ret_value\":\"number\",\"caption\":\"storage_total\",\"sample_value\":29023,\"path\":[\"storage_total\"]},\"_p_cpu_temp\":{\"ret_value\":\"number\",\"caption\":\"cpu_temp\",\"sample_value\":51,\"path\":[\"cpu_temp\"]},\"_p_cpu_usage\":{\"ret_value\":\"number\",\"caption\":\"cpu_usage\",\"sample_value\":3,\"path\":[\"cpu_usage\"]},\"_p_cpu_id\":{\"ret_value\":\"text\",\"caption\":\"cpu_id\",\"sample_value\":\"100000003645fd1\",\"path\":[\"cpu_id\"]},\"_p_is_undervolted\":{\"ret_value\":\"boolean\",\"caption\":\"is_undervolted\",\"sample_value\":false,\"path\":[\"is_undervolted\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/device(@id)?@id=4197064\",\"path\":[\"__metadata\",\"uri\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/device"
+        },
+        "AEb": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device/#devices-by-application",
+            "initialized": true,
+            "method": "get",
+            "name": "Device - Get all devices by application",
+            "publish_as": "data",
+            "rank": 16,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AEb",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AEb\":{\"caption\":\"Device - Get all devices by application\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AEb.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AEb.d\":{\"caption\":\"Device - Get all devices by application d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":4197064,\"path\":[\"id\"]},\"_p_belongs_to__application.__id\":{\"ret_value\":\"number\",\"caption\":\"belongs_to__application __id\",\"sample_value\":1818420,\"path\":[\"belongs_to__application\",\"__id\"]},\"_p_belongs_to__application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_belongs_to__user\":{\"ret_value\":\"text\",\"caption\":\"belongs_to__user\",\"sample_value\":null,\"path\":[\"belongs_to__user\"]},\"_p_is_managed_by__device\":{\"ret_value\":\"text\",\"caption\":\"is_managed_by__device\",\"sample_value\":null,\"path\":[\"is_managed_by__device\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":7224395,\"path\":[\"actor\"]},\"_p_should_be_running__release\":{\"ret_value\":\"text\",\"caption\":\"should_be_running__release\",\"sample_value\":null,\"path\":[\"should_be_running__release\"]},\"_p_device_name\":{\"ret_value\":\"text\",\"caption\":\"device_name\",\"sample_value\":\"electron\",\"path\":[\"device_name\"]},\"_p_is_of__device_type.__id\":{\"ret_value\":\"number\",\"caption\":\"is_of__device_type __id\",\"sample_value\":60,\"path\":[\"is_of__device_type\",\"__id\"]},\"_p_is_of__device_type.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_uuid\":{\"ret_value\":\"text\",\"caption\":\"uuid\",\"sample_value\":\"d9dbfd2f487af8bc7a627d2a884e91a5\",\"path\":[\"uuid\"]},\"_p_is_running__release.__id\":{\"ret_value\":\"number\",\"caption\":\"is_running__release __id\",\"sample_value\":1771733,\"path\":[\"is_running__release\",\"__id\"]},\"_p_is_running__release.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_note\":{\"ret_value\":\"text\",\"caption\":\"note\",\"sample_value\":\"I set this from the Bubble plugin!\",\"path\":[\"note\"]},\"_p_local_id\":{\"ret_value\":\"text\",\"caption\":\"local_id\",\"sample_value\":null,\"path\":[\"local_id\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"Idle\",\"path\":[\"status\"]},\"_p_is_online\":{\"ret_value\":\"boolean\",\"caption\":\"is_online\",\"sample_value\":true,\"path\":[\"is_online\"]},\"_p_last_connectivity_event\":{\"ret_value\":\"text\",\"caption\":\"last_connectivity_event\",\"sample_value\":\"2021-04-21T17:27:23.783Z\",\"path\":[\"last_connectivity_event\"]},\"_p_is_connected_to_vpn\":{\"ret_value\":\"boolean\",\"caption\":\"is_connected_to_vpn\",\"sample_value\":true,\"path\":[\"is_connected_to_vpn\"]},\"_p_last_vpn_event\":{\"ret_value\":\"text\",\"caption\":\"last_vpn_event\",\"sample_value\":\"2021-04-21T17:27:23.783Z\",\"path\":[\"last_vpn_event\"]},\"_p_ip_address\":{\"ret_value\":\"text\",\"caption\":\"ip_address\",\"sample_value\":\"192.168.1.184\",\"path\":[\"ip_address\"]},\"_p_mac_address\":{\"ret_value\":\"text\",\"caption\":\"mac_address\",\"sample_value\":\"DC:A6:32:89:75:4E DC:A6:32:89:75:50\",\"path\":[\"mac_address\"]},\"_p_vpn_address\":{\"ret_value\":\"text\",\"caption\":\"vpn_address\",\"sample_value\":\"10.240.31.77\",\"path\":[\"vpn_address\"]},\"_p_public_address\":{\"ret_value\":\"text\",\"caption\":\"public_address\",\"sample_value\":\"98.116.39.155\",\"path\":[\"public_address\"]},\"_p_os_version\":{\"ret_value\":\"text\",\"caption\":\"os_version\",\"sample_value\":\"balenaOS 2.73.1+rev1\",\"path\":[\"os_version\"]},\"_p_os_variant\":{\"ret_value\":\"text\",\"caption\":\"os_variant\",\"sample_value\":\"prod\",\"path\":[\"os_variant\"]},\"_p_supervisor_version\":{\"ret_value\":\"text\",\"caption\":\"supervisor_version\",\"sample_value\":\"12.4.6\",\"path\":[\"supervisor_version\"]},\"_p_should_be_managed_by__supervisor_release.__id\":{\"ret_value\":\"number\",\"caption\":\"should_be_managed_by__supervisor_release __id\",\"sample_value\":1732371,\"path\":[\"should_be_managed_by__supervisor_release\",\"__id\"]},\"_p_should_be_managed_by__supervisor_release.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_is_managed_by__service_instance.__id\":{\"ret_value\":\"number\",\"caption\":\"is_managed_by__service_instance __id\",\"sample_value\":124468,\"path\":[\"is_managed_by__service_instance\",\"__id\"]},\"_p_is_managed_by__service_instance.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_provisioning_progress\":{\"ret_value\":\"text\",\"caption\":\"provisioning_progress\",\"sample_value\":null,\"path\":[\"provisioning_progress\"]},\"_p_provisioning_state\":{\"ret_value\":\"text\",\"caption\":\"provisioning_state\",\"sample_value\":\"\",\"path\":[\"provisioning_state\"]},\"_p_download_progress\":{\"ret_value\":\"text\",\"caption\":\"download_progress\",\"sample_value\":null,\"path\":[\"download_progress\"]},\"_p_is_web_accessible\":{\"ret_value\":\"boolean\",\"caption\":\"is_web_accessible\",\"sample_value\":false,\"path\":[\"is_web_accessible\"]},\"_p_longitude\":{\"ret_value\":\"text\",\"caption\":\"longitude\",\"sample_value\":\"-73.9591\",\"path\":[\"longitude\"]},\"_p_latitude\":{\"ret_value\":\"text\",\"caption\":\"latitude\",\"sample_value\":\"40.7099\",\"path\":[\"latitude\"]},\"_p_location\":{\"ret_value\":\"text\",\"caption\":\"location\",\"sample_value\":\"Brooklyn, New York, United States\",\"path\":[\"location\"]},\"_p_custom_longitude\":{\"ret_value\":\"text\",\"caption\":\"custom_longitude\",\"sample_value\":\"\",\"path\":[\"custom_longitude\"]},\"_p_custom_latitude\":{\"ret_value\":\"text\",\"caption\":\"custom_latitude\",\"sample_value\":\"\",\"path\":[\"custom_latitude\"]},\"_p_logs_channel\":{\"ret_value\":\"text\",\"caption\":\"logs_channel\",\"sample_value\":null,\"path\":[\"logs_channel\"]},\"_p_is_locked_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_locked_until__date\",\"sample_value\":null,\"path\":[\"is_locked_until__date\"]},\"_p_is_accessible_by_support_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_accessible_by_support_until__date\",\"sample_value\":null,\"path\":[\"is_accessible_by_support_until__date\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-15T22:54:05.842Z\",\"path\":[\"created_at\"]},\"_p_is_active\":{\"ret_value\":\"boolean\",\"caption\":\"is_active\",\"sample_value\":true,\"path\":[\"is_active\"]},\"_p_api_heartbeat_state\":{\"ret_value\":\"text\",\"caption\":\"api_heartbeat_state\",\"sample_value\":\"online\",\"path\":[\"api_heartbeat_state\"]},\"_p_memory_usage\":{\"ret_value\":\"number\",\"caption\":\"memory_usage\",\"sample_value\":240,\"path\":[\"memory_usage\"]},\"_p_memory_total\":{\"ret_value\":\"number\",\"caption\":\"memory_total\",\"sample_value\":3845,\"path\":[\"memory_total\"]},\"_p_storage_block_device\":{\"ret_value\":\"text\",\"caption\":\"storage_block_device\",\"sample_value\":\"/dev/mmcblk0\",\"path\":[\"storage_block_device\"]},\"_p_storage_usage\":{\"ret_value\":\"number\",\"caption\":\"storage_usage\",\"sample_value\":357,\"path\":[\"storage_usage\"]},\"_p_storage_total\":{\"ret_value\":\"number\",\"caption\":\"storage_total\",\"sample_value\":29023,\"path\":[\"storage_total\"]},\"_p_cpu_temp\":{\"ret_value\":\"number\",\"caption\":\"cpu_temp\",\"sample_value\":54,\"path\":[\"cpu_temp\"]},\"_p_cpu_usage\":{\"ret_value\":\"number\",\"caption\":\"cpu_usage\",\"sample_value\":18,\"path\":[\"cpu_usage\"]},\"_p_cpu_id\":{\"ret_value\":\"text\",\"caption\":\"cpu_id\",\"sample_value\":\"100000003645fd1\",\"path\":[\"cpu_id\"]},\"_p_is_undervolted\":{\"ret_value\":\"boolean\",\"caption\":\"is_undervolted\",\"sample_value\":false,\"path\":[\"is_undervolted\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/device?$filter=belongs_to__application%20eq%20'[app_id]'",
+            "url_params": {
+                "AEd": {
+                    "doc": "https://www.balena.io/docs/reference/api/resources/device/#devices-by-application",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AEe": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device/#device-by-uuid",
+            "initialized": true,
+            "method": "get",
+            "name": "Device - Get device by UUID",
+            "publish_as": "data",
+            "rank": 17,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AEe",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AEe\":{\"caption\":\"Device - Get device by UUID\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AEe.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AEe.d\":{\"caption\":\"Device - Get device by UUID d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":4197064,\"path\":[\"id\"]},\"_p_belongs_to__application.__id\":{\"ret_value\":\"number\",\"caption\":\"belongs_to__application __id\",\"sample_value\":1818420,\"path\":[\"belongs_to__application\",\"__id\"]},\"_p_belongs_to__application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_belongs_to__user\":{\"ret_value\":\"text\",\"caption\":\"belongs_to__user\",\"sample_value\":null,\"path\":[\"belongs_to__user\"]},\"_p_is_managed_by__device\":{\"ret_value\":\"text\",\"caption\":\"is_managed_by__device\",\"sample_value\":null,\"path\":[\"is_managed_by__device\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":7224395,\"path\":[\"actor\"]},\"_p_should_be_running__release\":{\"ret_value\":\"text\",\"caption\":\"should_be_running__release\",\"sample_value\":null,\"path\":[\"should_be_running__release\"]},\"_p_device_name\":{\"ret_value\":\"text\",\"caption\":\"device_name\",\"sample_value\":\"electron\",\"path\":[\"device_name\"]},\"_p_is_of__device_type.__id\":{\"ret_value\":\"number\",\"caption\":\"is_of__device_type __id\",\"sample_value\":60,\"path\":[\"is_of__device_type\",\"__id\"]},\"_p_is_of__device_type.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_uuid\":{\"ret_value\":\"text\",\"caption\":\"uuid\",\"sample_value\":\"d9dbfd2f487af8bc7a627d2a884e91a5\",\"path\":[\"uuid\"]},\"_p_is_running__release.__id\":{\"ret_value\":\"number\",\"caption\":\"is_running__release __id\",\"sample_value\":1771733,\"path\":[\"is_running__release\",\"__id\"]},\"_p_is_running__release.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_note\":{\"ret_value\":\"text\",\"caption\":\"note\",\"sample_value\":\"I set this from the Bubble plugin!\",\"path\":[\"note\"]},\"_p_local_id\":{\"ret_value\":\"text\",\"caption\":\"local_id\",\"sample_value\":null,\"path\":[\"local_id\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"Idle\",\"path\":[\"status\"]},\"_p_is_online\":{\"ret_value\":\"boolean\",\"caption\":\"is_online\",\"sample_value\":true,\"path\":[\"is_online\"]},\"_p_last_connectivity_event\":{\"ret_value\":\"text\",\"caption\":\"last_connectivity_event\",\"sample_value\":\"2021-04-21T15:51:25.873Z\",\"path\":[\"last_connectivity_event\"]},\"_p_is_connected_to_vpn\":{\"ret_value\":\"boolean\",\"caption\":\"is_connected_to_vpn\",\"sample_value\":true,\"path\":[\"is_connected_to_vpn\"]},\"_p_last_vpn_event\":{\"ret_value\":\"text\",\"caption\":\"last_vpn_event\",\"sample_value\":\"2021-04-21T15:51:25.873Z\",\"path\":[\"last_vpn_event\"]},\"_p_ip_address\":{\"ret_value\":\"text\",\"caption\":\"ip_address\",\"sample_value\":\"192.168.1.184\",\"path\":[\"ip_address\"]},\"_p_mac_address\":{\"ret_value\":\"text\",\"caption\":\"mac_address\",\"sample_value\":\"DC:A6:32:89:75:4E DC:A6:32:89:75:50\",\"path\":[\"mac_address\"]},\"_p_vpn_address\":{\"ret_value\":\"text\",\"caption\":\"vpn_address\",\"sample_value\":\"10.240.110.194\",\"path\":[\"vpn_address\"]},\"_p_public_address\":{\"ret_value\":\"text\",\"caption\":\"public_address\",\"sample_value\":\"98.116.39.155\",\"path\":[\"public_address\"]},\"_p_os_version\":{\"ret_value\":\"text\",\"caption\":\"os_version\",\"sample_value\":\"balenaOS 2.73.1+rev1\",\"path\":[\"os_version\"]},\"_p_os_variant\":{\"ret_value\":\"text\",\"caption\":\"os_variant\",\"sample_value\":\"prod\",\"path\":[\"os_variant\"]},\"_p_supervisor_version\":{\"ret_value\":\"text\",\"caption\":\"supervisor_version\",\"sample_value\":\"12.4.6\",\"path\":[\"supervisor_version\"]},\"_p_should_be_managed_by__supervisor_release.__id\":{\"ret_value\":\"number\",\"caption\":\"should_be_managed_by__supervisor_release __id\",\"sample_value\":1732371,\"path\":[\"should_be_managed_by__supervisor_release\",\"__id\"]},\"_p_should_be_managed_by__supervisor_release.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_is_managed_by__service_instance.__id\":{\"ret_value\":\"number\",\"caption\":\"is_managed_by__service_instance __id\",\"sample_value\":124468,\"path\":[\"is_managed_by__service_instance\",\"__id\"]},\"_p_is_managed_by__service_instance.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_provisioning_progress\":{\"ret_value\":\"text\",\"caption\":\"provisioning_progress\",\"sample_value\":null,\"path\":[\"provisioning_progress\"]},\"_p_provisioning_state\":{\"ret_value\":\"text\",\"caption\":\"provisioning_state\",\"sample_value\":\"\",\"path\":[\"provisioning_state\"]},\"_p_download_progress\":{\"ret_value\":\"text\",\"caption\":\"download_progress\",\"sample_value\":null,\"path\":[\"download_progress\"]},\"_p_is_web_accessible\":{\"ret_value\":\"boolean\",\"caption\":\"is_web_accessible\",\"sample_value\":false,\"path\":[\"is_web_accessible\"]},\"_p_longitude\":{\"ret_value\":\"text\",\"caption\":\"longitude\",\"sample_value\":\"-73.9591\",\"path\":[\"longitude\"]},\"_p_latitude\":{\"ret_value\":\"text\",\"caption\":\"latitude\",\"sample_value\":\"40.7099\",\"path\":[\"latitude\"]},\"_p_location\":{\"ret_value\":\"text\",\"caption\":\"location\",\"sample_value\":\"Brooklyn, New York, United States\",\"path\":[\"location\"]},\"_p_custom_longitude\":{\"ret_value\":\"text\",\"caption\":\"custom_longitude\",\"sample_value\":\"\",\"path\":[\"custom_longitude\"]},\"_p_custom_latitude\":{\"ret_value\":\"text\",\"caption\":\"custom_latitude\",\"sample_value\":\"\",\"path\":[\"custom_latitude\"]},\"_p_logs_channel\":{\"ret_value\":\"text\",\"caption\":\"logs_channel\",\"sample_value\":null,\"path\":[\"logs_channel\"]},\"_p_is_locked_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_locked_until__date\",\"sample_value\":null,\"path\":[\"is_locked_until__date\"]},\"_p_is_accessible_by_support_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_accessible_by_support_until__date\",\"sample_value\":null,\"path\":[\"is_accessible_by_support_until__date\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-15T22:54:05.842Z\",\"path\":[\"created_at\"]},\"_p_is_active\":{\"ret_value\":\"boolean\",\"caption\":\"is_active\",\"sample_value\":true,\"path\":[\"is_active\"]},\"_p_api_heartbeat_state\":{\"ret_value\":\"text\",\"caption\":\"api_heartbeat_state\",\"sample_value\":\"online\",\"path\":[\"api_heartbeat_state\"]},\"_p_memory_usage\":{\"ret_value\":\"number\",\"caption\":\"memory_usage\",\"sample_value\":253,\"path\":[\"memory_usage\"]},\"_p_memory_total\":{\"ret_value\":\"number\",\"caption\":\"memory_total\",\"sample_value\":3845,\"path\":[\"memory_total\"]},\"_p_storage_block_device\":{\"ret_value\":\"text\",\"caption\":\"storage_block_device\",\"sample_value\":\"/dev/mmcblk0\",\"path\":[\"storage_block_device\"]},\"_p_storage_usage\":{\"ret_value\":\"number\",\"caption\":\"storage_usage\",\"sample_value\":357,\"path\":[\"storage_usage\"]},\"_p_storage_total\":{\"ret_value\":\"number\",\"caption\":\"storage_total\",\"sample_value\":29023,\"path\":[\"storage_total\"]},\"_p_cpu_temp\":{\"ret_value\":\"number\",\"caption\":\"cpu_temp\",\"sample_value\":60,\"path\":[\"cpu_temp\"]},\"_p_cpu_usage\":{\"ret_value\":\"number\",\"caption\":\"cpu_usage\",\"sample_value\":2,\"path\":[\"cpu_usage\"]},\"_p_cpu_id\":{\"ret_value\":\"text\",\"caption\":\"cpu_id\",\"sample_value\":\"100000003645fd1\",\"path\":[\"cpu_id\"]},\"_p_is_undervolted\":{\"ret_value\":\"boolean\",\"caption\":\"is_undervolted\",\"sample_value\":false,\"path\":[\"is_undervolted\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/device?$filter=uuid%20eq%20'[device_uuid]'",
+            "url_params": {
+                "AEx": {
+                    "doc": "Device's UUID. Note that this is different than the \"device_id\" aka \"id\" which is returned from the \"Get all devices\" call.",
+                    "key": "device_uuid",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AEz": {
+            "body": "{\n    \"device_name\": \"<new_name>\"\n}",
+            "body_params": {
+                "AFR": {
+                    "doc": "New device name.",
+                    "key": "new_name",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device/#rename-device",
+            "initialized": true,
+            "method": "patch",
+            "name": "Device - Rename Device",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 18,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/device([device_id])",
+            "url_params": {
+                "AFJ": {
+                    "doc": "Device ID. This is returned in the \"Get all all devices\" call. ",
+                    "key": "device_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AFS": {
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device/#delete-device",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Device - Delete device",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 19,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AFS",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AFS\":{\"caption\":\"Device - Delete device\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AFS.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AFS.d\":{\"caption\":\"Device - Delete device d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":4197060,\"path\":[\"id\"]},\"_p_belongs_to__application.__id\":{\"ret_value\":\"number\",\"caption\":\"belongs_to__application __id\",\"sample_value\":1818420,\"path\":[\"belongs_to__application\",\"__id\"]},\"_p_belongs_to__application.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"belongs_to__application __deferred uri\",\"sample_value\":\"/resin/application(@id)?@id=1818420\",\"path\":[\"belongs_to__application\",\"__deferred\",\"uri\"]},\"_p_belongs_to__user\":{\"ret_value\":\"text\",\"caption\":\"belongs_to__user\",\"sample_value\":null,\"path\":[\"belongs_to__user\"]},\"_p_is_managed_by__device\":{\"ret_value\":\"text\",\"caption\":\"is_managed_by__device\",\"sample_value\":null,\"path\":[\"is_managed_by__device\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":7224382,\"path\":[\"actor\"]},\"_p_should_be_running__release\":{\"ret_value\":\"text\",\"caption\":\"should_be_running__release\",\"sample_value\":null,\"path\":[\"should_be_running__release\"]},\"_p_device_name\":{\"ret_value\":\"text\",\"caption\":\"device_name\",\"sample_value\":\"proton\",\"path\":[\"device_name\"]},\"_p_is_of__device_type.__id\":{\"ret_value\":\"number\",\"caption\":\"is_of__device_type __id\",\"sample_value\":59,\"path\":[\"is_of__device_type\",\"__id\"]},\"_p_is_of__device_type.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_of__device_type __deferred uri\",\"sample_value\":\"/resin/device_type(@id)?@id=59\",\"path\":[\"is_of__device_type\",\"__deferred\",\"uri\"]},\"_p_uuid\":{\"ret_value\":\"text\",\"caption\":\"uuid\",\"sample_value\":\"434b05f1771adb69eae0bca92934e44f\",\"path\":[\"uuid\"]},\"_p_is_running__release\":{\"ret_value\":\"text\",\"caption\":\"is_running__release\",\"sample_value\":null,\"path\":[\"is_running__release\"]},\"_p_note\":{\"ret_value\":\"text\",\"caption\":\"note\",\"sample_value\":null,\"path\":[\"note\"]},\"_p_local_id\":{\"ret_value\":\"text\",\"caption\":\"local_id\",\"sample_value\":null,\"path\":[\"local_id\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"Idle\",\"path\":[\"status\"]},\"_p_is_online\":{\"ret_value\":\"boolean\",\"caption\":\"is_online\",\"sample_value\":true,\"path\":[\"is_online\"]},\"_p_last_connectivity_event\":{\"ret_value\":\"text\",\"caption\":\"last_connectivity_event\",\"sample_value\":\"2021-04-15T22:48:38.579Z\",\"path\":[\"last_connectivity_event\"]},\"_p_is_connected_to_vpn\":{\"ret_value\":\"boolean\",\"caption\":\"is_connected_to_vpn\",\"sample_value\":true,\"path\":[\"is_connected_to_vpn\"]},\"_p_last_vpn_event\":{\"ret_value\":\"text\",\"caption\":\"last_vpn_event\",\"sample_value\":\"2021-04-15T22:48:38.579Z\",\"path\":[\"last_vpn_event\"]},\"_p_ip_address\":{\"ret_value\":\"text\",\"caption\":\"ip_address\",\"sample_value\":\"192.168.1.182\",\"path\":[\"ip_address\"]},\"_p_mac_address\":{\"ret_value\":\"text\",\"caption\":\"mac_address\",\"sample_value\":\"B8:27:EB:52:66:CE B8:27:EB:07:33:9B\",\"path\":[\"mac_address\"]},\"_p_vpn_address\":{\"ret_value\":\"text\",\"caption\":\"vpn_address\",\"sample_value\":\"10.240.83.1\",\"path\":[\"vpn_address\"]},\"_p_public_address\":{\"ret_value\":\"text\",\"caption\":\"public_address\",\"sample_value\":\"98.116.39.155\",\"path\":[\"public_address\"]},\"_p_os_version\":{\"ret_value\":\"text\",\"caption\":\"os_version\",\"sample_value\":\"balenaOS 2.65.0+rev1\",\"path\":[\"os_version\"]},\"_p_os_variant\":{\"ret_value\":\"text\",\"caption\":\"os_variant\",\"sample_value\":\"prod\",\"path\":[\"os_variant\"]},\"_p_supervisor_version\":{\"ret_value\":\"text\",\"caption\":\"supervisor_version\",\"sample_value\":\"12.2.11\",\"path\":[\"supervisor_version\"]},\"_p_should_be_managed_by__supervisor_release.__id\":{\"ret_value\":\"number\",\"caption\":\"should_be_managed_by__supervisor_release __id\",\"sample_value\":1638567,\"path\":[\"should_be_managed_by__supervisor_release\",\"__id\"]},\"_p_should_be_managed_by__supervisor_release.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"should_be_managed_by__supervisor_release __deferred uri\",\"sample_value\":\"/resin/supervisor_release(@id)?@id=1638567\",\"path\":[\"should_be_managed_by__supervisor_release\",\"__deferred\",\"uri\"]},\"_p_is_managed_by__service_instance.__id\":{\"ret_value\":\"number\",\"caption\":\"is_managed_by__service_instance __id\",\"sample_value\":124472,\"path\":[\"is_managed_by__service_instance\",\"__id\"]},\"_p_is_managed_by__service_instance.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"is_managed_by__service_instance __deferred uri\",\"sample_value\":\"/resin/service_instance(@id)?@id=124472\",\"path\":[\"is_managed_by__service_instance\",\"__deferred\",\"uri\"]},\"_p_provisioning_progress\":{\"ret_value\":\"text\",\"caption\":\"provisioning_progress\",\"sample_value\":null,\"path\":[\"provisioning_progress\"]},\"_p_provisioning_state\":{\"ret_value\":\"text\",\"caption\":\"provisioning_state\",\"sample_value\":\"\",\"path\":[\"provisioning_state\"]},\"_p_download_progress\":{\"ret_value\":\"text\",\"caption\":\"download_progress\",\"sample_value\":null,\"path\":[\"download_progress\"]},\"_p_is_web_accessible\":{\"ret_value\":\"boolean\",\"caption\":\"is_web_accessible\",\"sample_value\":false,\"path\":[\"is_web_accessible\"]},\"_p_longitude\":{\"ret_value\":\"text\",\"caption\":\"longitude\",\"sample_value\":\"-73.9591\",\"path\":[\"longitude\"]},\"_p_latitude\":{\"ret_value\":\"text\",\"caption\":\"latitude\",\"sample_value\":\"40.7099\",\"path\":[\"latitude\"]},\"_p_location\":{\"ret_value\":\"text\",\"caption\":\"location\",\"sample_value\":\"Brooklyn, New York, United States\",\"path\":[\"location\"]},\"_p_custom_longitude\":{\"ret_value\":\"text\",\"caption\":\"custom_longitude\",\"sample_value\":\"\",\"path\":[\"custom_longitude\"]},\"_p_custom_latitude\":{\"ret_value\":\"text\",\"caption\":\"custom_latitude\",\"sample_value\":\"\",\"path\":[\"custom_latitude\"]},\"_p_logs_channel\":{\"ret_value\":\"text\",\"caption\":\"logs_channel\",\"sample_value\":null,\"path\":[\"logs_channel\"]},\"_p_is_locked_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_locked_until__date\",\"sample_value\":null,\"path\":[\"is_locked_until__date\"]},\"_p_is_accessible_by_support_until__date\":{\"ret_value\":\"text\",\"caption\":\"is_accessible_by_support_until__date\",\"sample_value\":null,\"path\":[\"is_accessible_by_support_until__date\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-15T22:48:32.850Z\",\"path\":[\"created_at\"]},\"_p_is_active\":{\"ret_value\":\"boolean\",\"caption\":\"is_active\",\"sample_value\":true,\"path\":[\"is_active\"]},\"_p_api_heartbeat_state\":{\"ret_value\":\"text\",\"caption\":\"api_heartbeat_state\",\"sample_value\":\"online\",\"path\":[\"api_heartbeat_state\"]},\"_p_memory_usage\":{\"ret_value\":\"number\",\"caption\":\"memory_usage\",\"sample_value\":244,\"path\":[\"memory_usage\"]},\"_p_memory_total\":{\"ret_value\":\"number\",\"caption\":\"memory_total\",\"sample_value\":966,\"path\":[\"memory_total\"]},\"_p_storage_block_device\":{\"ret_value\":\"text\",\"caption\":\"storage_block_device\",\"sample_value\":\"/dev/mmcblk0\",\"path\":[\"storage_block_device\"]},\"_p_storage_usage\":{\"ret_value\":\"number\",\"caption\":\"storage_usage\",\"sample_value\":88,\"path\":[\"storage_usage\"]},\"_p_storage_total\":{\"ret_value\":\"number\",\"caption\":\"storage_total\",\"sample_value\":29023,\"path\":[\"storage_total\"]},\"_p_cpu_temp\":{\"ret_value\":\"number\",\"caption\":\"cpu_temp\",\"sample_value\":49,\"path\":[\"cpu_temp\"]},\"_p_cpu_usage\":{\"ret_value\":\"number\",\"caption\":\"cpu_usage\",\"sample_value\":5,\"path\":[\"cpu_usage\"]},\"_p_cpu_id\":{\"ret_value\":\"text\",\"caption\":\"cpu_id\",\"sample_value\":\"00000000ce5266c\",\"path\":[\"cpu_id\"]},\"_p_is_undervolted\":{\"ret_value\":\"boolean\",\"caption\":\"is_undervolted\",\"sample_value\":false,\"path\":[\"is_undervolted\"]},\"_p___metadata.uri\":{\"ret_value\":\"text\",\"caption\":\"__metadata uri\",\"sample_value\":\"/resin/device(@id)?@id=4197060\",\"path\":[\"__metadata\",\"uri\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/device([device_id])",
+            "url_params": {
+                "AFT": {
+                    "doc": "The device's device_id (aka \"id\" in the \"Get all devices\" call)",
+                    "key": "device_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AFg": {
+            "body": "{\n    \"note\": \"<details>\"\n}",
+            "body_params": {
+                "AGB": {
+                    "doc": "Content of the note you want to set.",
+                    "key": "details",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device/#add-note",
+            "initialized": true,
+            "method": "patch",
+            "name": "Device - Add note to device",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 20,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/device([device_id])",
+            "url_params": {
+                "AFo": {
+                    "doc": "Device ID",
+                    "key": "device_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AGC": {
+            "body": "{\n    \"belongs_to__application\": \"<app_id>\"\n}",
+            "body_params": {
+                "AGN": {
+                    "doc": "The application ID of the application you want to move this device to.",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device/#move-device",
+            "initialized": true,
+            "method": "patch",
+            "name": "Device - Move device to another application",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 21,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/device([device_id])",
+            "url_params": {
+                "AGI": {
+                    "doc": "Device ID",
+                    "key": "device_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AGO": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/user/#get-users",
+            "initialized": true,
+            "method": "get",
+            "name": "User - Get users associated with account",
+            "publish_as": "data",
+            "rank": 30,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AGO",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AGO\":{\"caption\":\"User - Get users associated with account\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AGO.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AGO.d\":{\"caption\":\"User - Get users associated with account d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":166683,\"path\":[\"id\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":6589539,\"path\":[\"actor\"]},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"g_nicholas_squires\",\"path\":[\"username\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2020-07-22T19:02:13.888Z\",\"path\":[\"created_at\"]},\"_p_has_legacy_link_to__organization.__id\":{\"ret_value\":\"text\",\"caption\":\"has_legacy_link_to__organization __id\",\"sample_value\":152251,\"path\":[\"has_legacy_link_to__organization\",\"__id\"]},\"_p_has_legacy_link_to__organization.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/user"
+        },
+        "AGP": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/user/#get-users-application",
+            "initialized": true,
+            "method": "get",
+            "name": "User - Get users associated with application",
+            "publish_as": "data",
+            "rank": 31,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AGP",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AGP\":{\"caption\":\"User - Get users associated with application\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AGP.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AGP.d\":{\"caption\":\"User - Get users associated with application d\",\"fields\":{\"_p_user\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AGP.user\",\"caption\":\"user\",\"path\":[\"user\"]},\"_p_application_membership_role\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AGP.application_membership_role\",\"caption\":\"application_membership_role\",\"path\":[\"application_membership_role\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":50645,\"path\":[\"id\"]},\"_p_is_member_of__application.__id\":{\"ret_value\":\"number\",\"caption\":\"is_member_of__application __id\",\"sample_value\":1818420,\"path\":[\"is_member_of__application\",\"__id\"]},\"_p_is_member_of__application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}},\"plugin_api.AGP.user\":{\"caption\":\"User - Get users associated with application user\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":166683,\"path\":[\"id\"]},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"g_nicholas_squires\",\"path\":[\"username\"]},\"_p_actor\":{\"ret_value\":\"number\",\"caption\":\"actor\",\"sample_value\":6589539,\"path\":[\"actor\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}},\"plugin_api.AGP.application_membership_role\":{\"caption\":\"User - Get users associated with application application_membership_role\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":2,\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"developer\",\"path\":[\"name\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/user__is_member_of__application?$expand=user($select=id,username,actor),application_membership_role($select=id,name,actor)&$filter=is_member_of__application%20eq%20[app_id]",
+            "url_params": {
+                "AGX": {
+                    "doc": "Application's ID\n\nNotes on User's role associated with each ID\n\nRole | ID\n--------------\nDeveloper | 2\nOperator | 3\nObserver | 4\n\nhttps://www.balena.io/docs/learn/manage/account/#member-types",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AHE": {
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/user/#delete-application-membership",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Device - Delete application membership",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 22,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AHE",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AHE\":{\"caption\":\"API Call\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AHE.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AHE.d\":{\"caption\":\"API Call d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":50495,\"path\":[\"id\"]},\"_p_user.__id\":{\"ret_value\":\"number\",\"caption\":\"user __id\",\"sample_value\":166683,\"path\":[\"user\",\"__id\"]},\"_p_user.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_is_member_of__application.__id\":{\"ret_value\":\"number\",\"caption\":\"is_member_of__application __id\",\"sample_value\":1818420,\"path\":[\"is_member_of__application\",\"__id\"]},\"_p_is_member_of__application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_application_membership_role.__id\":{\"ret_value\":\"number\",\"caption\":\"application_membership_role __id\",\"sample_value\":2,\"path\":[\"application_membership_role\",\"__id\"]},\"_p_application_membership_role.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/user__is_member_of__application?$filter=is_member_of__application%20eq%20[app_id]%20and%20user%20eq%20[user_id]",
+            "url_params": {
+                "AHO": {
+                    "doc": "User's Balena user ID. This is \"id\" in the \"Get users associated with account\" API call",
+                    "key": "user_id",
+                    "private": true,
+                    "value": ""
+                },
+                "AHU": {
+                    "doc": "Balena application ID ",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AHY": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/whoami/#whoami",
+            "initialized": true,
+            "method": "get",
+            "name": "Who am I - Get user associated with token",
+            "publish_as": "data",
+            "rank": 39,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AHY",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AHY\":{\"caption\":\"Who am I - Get user associated with token\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":166683,\"path\":[\"id\"]},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"g_nicholas_squires\",\"path\":[\"username\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":\"nick@modeselekt.com\",\"path\":[\"email\"]}}}}",
+            "url": "https://api.balena-cloud.com/user/v1/whoami"
+        },
+        "AHZ": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/team_membership/#get-team-membership",
+            "initialized": true,
+            "method": "get",
+            "name": "Team Membership - Get team membership of users",
+            "publish_as": "data",
+            "rank": 32,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AHZ",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AHZ\":{\"caption\":\"Team Membership - Get team membership of user\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AHZ.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AHZ.d\":{\"caption\":\"Team Membership - Get team membership of users d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":740,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-16T23:49:59.740Z\",\"path\":[\"created_at\"]},\"_p_user.__id\":{\"ret_value\":\"number\",\"caption\":\"user __id\",\"sample_value\":166683,\"path\":[\"user\",\"__id\"]},\"_p_user.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_is_member_of__team.__id\":{\"ret_value\":\"number\",\"caption\":\"is_member_of__team __id\",\"sample_value\":306,\"path\":[\"is_member_of__team\",\"__id\"]},\"_p_is_member_of__team.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/team_membership"
+        },
+        "AHa": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/team_application_access/#get-team-application-access",
+            "initialized": true,
+            "method": "get",
+            "name": "Team Application Access - Get Team's Applications Access",
+            "publish_as": "data",
+            "rank": 37,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AHa",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AHa\":{\"caption\":\"Team Application Access - Get Team's Applications Acces\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AHa.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AHa.d\":{\"caption\":\"Team Application Access - Get Team's Applications Access d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1199,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-16T23:51:11.937Z\",\"path\":[\"created_at\"]},\"_p_team.__id\":{\"ret_value\":\"number\",\"caption\":\"team __id\",\"sample_value\":306,\"path\":[\"team\",\"__id\"]},\"_p_team.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"team __deferred uri\",\"sample_value\":\"/resin/team(@id)?@id=306\",\"path\":[\"team\",\"__deferred\",\"uri\"]},\"_p_grants_access_to__application.__id\":{\"ret_value\":\"number\",\"caption\":\"grants_access_to__application __id\",\"sample_value\":1818673,\"path\":[\"grants_access_to__application\",\"__id\"]},\"_p_grants_access_to__application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_application_membership_role.__id\":{\"ret_value\":\"number\",\"caption\":\"application_membership_role __id\",\"sample_value\":3,\"path\":[\"application_membership_role\",\"__id\"]},\"_p_application_membership_role.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/team_application_access"
+        },
+        "AIB": {
+            "doc_link": "Returns a list of all organizations, members of each organization and their associated roles.",
+            "initialized": true,
+            "method": "get",
+            "name": "Organization Membership - Get all organization memberships",
+            "publish_as": "data",
+            "rank": 23,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AIB",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AIB\":{\"caption\":\"Organization Membership - Get all organization membership\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AIB.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AIB.d\":{\"caption\":\"Organization Membership - Get all organization memberships d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":167540,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2020-07-22T19:02:13.888Z\",\"path\":[\"created_at\"]},\"_p_user.__id\":{\"ret_value\":\"number\",\"caption\":\"user __id\",\"sample_value\":166683,\"path\":[\"user\",\"__id\"]},\"_p_user.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_is_member_of__organization.__id\":{\"ret_value\":\"number\",\"caption\":\"is_member_of__organization __id\",\"sample_value\":152251,\"path\":[\"is_member_of__organization\",\"__id\"]},\"_p_is_member_of__organization.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_organization_membership_role.__id\":{\"ret_value\":\"number\",\"caption\":\"organization_membership_role __id\",\"sample_value\":3,\"path\":[\"organization_membership_role\",\"__id\"]},\"_p_organization_membership_role.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_effective_seat_role\":{\"ret_value\":\"text\",\"caption\":\"effective_seat_role\",\"sample_value\":\"administrator\",\"path\":[\"effective_seat_role\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/organization_membership"
+        },
+        "AIC": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/team/#get-teams",
+            "initialized": true,
+            "method": "get",
+            "name": "Team - Get all teams associated with user",
+            "publish_as": "data",
+            "rank": 33,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AIC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AIC\":{\"caption\":\"Team - Get all teams associated with user\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AIC.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AIC.d\":{\"caption\":\"Team - Get all teams associated with user d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":306,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-16T23:49:45.880Z\",\"path\":[\"created_at\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"CASA team\",\"path\":[\"name\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":null,\"path\":[\"description\"]},\"_p_belongs_to__organization.__id\":{\"ret_value\":\"number\",\"caption\":\"belongs_to__organization __id\",\"sample_value\":152251,\"path\":[\"belongs_to__organization\",\"__id\"]},\"_p_belongs_to__organization.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/team"
+        },
+        "AID": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/team/#get-team-by-id",
+            "initialized": true,
+            "method": "get",
+            "name": "Team - Get team by ID",
+            "publish_as": "data",
+            "rank": 34,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AID",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AID\":{\"caption\":\"Team - Get team by ID\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AID.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AID.d\":{\"caption\":\"Team - Get team by ID d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":310,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-18T01:17:41.985Z\",\"path\":[\"created_at\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"TestTeam\",\"path\":[\"name\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":null,\"path\":[\"description\"]},\"_p_belongs_to__organization.__id\":{\"ret_value\":\"number\",\"caption\":\"belongs_to__organization __id\",\"sample_value\":152251,\"path\":[\"belongs_to__organization\",\"__id\"]},\"_p_belongs_to__organization.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/team([team_id])",
+            "url_params": {
+                "AIK": {
+                    "doc": "A teams ID. Returned in call \"Get all teams associated with user\"",
+                    "key": "team_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AIM": {
+            "body": "{\n    \"name\": \"<team_name>\",\n    \"belongs_to__organization\": \"<org_id>\"\n}",
+            "body_params": {
+                "AId": {
+                    "doc": "ID of the org you want to add this team to",
+                    "key": "org_id",
+                    "private": true,
+                    "value": ""
+                },
+                "AIj": {
+                    "doc": "New team name",
+                    "key": "team_name",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/team/#create-team",
+            "initialized": true,
+            "method": "post",
+            "name": "Team - Create a new team in organization",
+            "publish_as": "data",
+            "rank": 35,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AIM",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AIM\":{\"caption\":\"Team - Create a new team in organization\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":310,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-18T01:17:41.985Z\",\"path\":[\"created_at\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"TestTeam\",\"path\":[\"name\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":null,\"path\":[\"description\"]},\"_p_belongs_to__organization.__id\":{\"ret_value\":\"number\",\"caption\":\"belongs_to__organization __id\",\"sample_value\":152251,\"path\":[\"belongs_to__organization\",\"__id\"]},\"_p_belongs_to__organization.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/team"
+        },
+        "AIk": {
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/team/#delete-team",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Team - Delete team with ID",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 36,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/team([team_id])",
+            "url_params": {
+                "AIo": {
+                    "doc": "ID of the team you want to delete",
+                    "key": "team_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AIp": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/service_install/#service-name-by-device",
+            "initialized": true,
+            "method": "get",
+            "name": "Service install - Get service name for all services on a device",
+            "publish_as": "data",
+            "rank": 25,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AIp",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AIp\":{\"caption\":\"Service install - Get service name for all services on a device\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AIp.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AIp.d\":{\"caption\":\"Service install - Get service name for all services on a device d\",\"fields\":{\"_p_installs__service\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AIp.installs__service\",\"caption\":\"installs__service\",\"path\":[\"installs__service\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":2761179,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-20T21:18:42.203Z\",\"path\":[\"created_at\"]},\"_p_device.__id\":{\"ret_value\":\"number\",\"caption\":\"device __id\",\"sample_value\":4198044,\"path\":[\"device\",\"__id\"]},\"_p_device.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}},\"plugin_api.AIp.installs__service\":{\"caption\":\"Service install - Get service name for all services on a device installs__service\",\"fields\":{\"_p_service_name\":{\"ret_value\":\"text\",\"caption\":\"service_name\",\"sample_value\":\"stocks\",\"path\":[\"service_name\"]}}}}",
+            "url": "https://api.balena-cloud.com/v6/service_install?$filter=device/uuid%20eq%20'[device_uuid]'&$expand=installs__service($select=service_name)",
+            "url_params": {
+                "AIs": {
+                    "doc": "Device UUID",
+                    "key": "device_uuid",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AIu": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/service/#services-of-application",
+            "initialized": true,
+            "method": "get",
+            "name": "Service - Get all services belonging to an application",
+            "publish_as": "data",
+            "rank": 24,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AIu",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AIu\":{\"caption\":\"Service - Get all services belonging to an application\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AIu.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AIu.d\":{\"caption\":\"Service - Get all services belonging to an application d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1025177,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-20T21:14:17.980Z\",\"path\":[\"created_at\"]},\"_p_application.__id\":{\"ret_value\":\"number\",\"caption\":\"application __id\",\"sample_value\":1818420,\"path\":[\"application\",\"__id\"]},\"_p_application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_service_name\":{\"ret_value\":\"text\",\"caption\":\"service_name\",\"sample_value\":\"stocks\",\"path\":[\"service_name\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/service?$filter=application/app_name%20eq%20'[app_name]'",
+            "url_params": {
+                "AJD": {
+                    "key": "app_name",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AJE": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/user__has__public_key/#get-ssh-keys",
+            "initialized": true,
+            "method": "get",
+            "name": "SSH Key - Get all SSH keys",
+            "publish_as": "data",
+            "rank": 26,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AJE",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AJE\":{\"caption\":\"SSH Key - Get all SSH key\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AJE.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AJE.d\":{\"caption\":\"SSH Key - Get all SSH keys d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":221861,\"path\":[\"id\"]},\"_p_user.__id\":{\"ret_value\":\"number\",\"caption\":\"user __id\",\"sample_value\":166683,\"path\":[\"user\",\"__id\"]},\"_p_user.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_title\":{\"ret_value\":\"text\",\"caption\":\"title\",\"sample_value\":\"TestKey\",\"path\":[\"title\"]},\"_p_public_key\":{\"ret_value\":\"text\",\"caption\":\"public_key\",\"sample_value\":\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvjrAuD2o0eJB2Fsuh/PccSosSCI70kHfIZ/hZau29wFjWr2IE0DMRtpTxADoeoyCjVVauN5lTNPHpZ3d57A6sHRzzWFWKj/4DYjTy2uKBfKj66sS2CG0X2eNXb8G84DuZ0QPjKKEiFNc5j/v+XoROgqbHusQZCCjnMHTUr/+qyrTLeiqDptT4s5FpnI2ww8wMEaEuYCsu/+PAXiBvvBuEvHbdUwwHI/3jcUEc9lFIUYlzWD+hCL8Dw/0WK/Hs6ZPd1LA7Mq6Eo3JBu8C3e3AAIbNLBOIrmyPFo7J/LUBMGNBAmfPIHJnjDhjLizn98VOV8OiofoSbIxbi5ZkZPoe0CaCXWQC4JcGNBYAcuzeshEWHQbMfHxP6dT+sj+S3qx+KuiE9XFzpH+wrBIhDyDl2WDdi+VZ93G5+V08ER6AYMFrdeIwVhfjSCyMlUYQbv1iWT4+yrb3sgfsX0YNEm5o4CJyKE2m7vcvClSSm3kyFyCyuygEjldudrGSrDI/bDkMoJE38csodDXXKZK74Xx4VfHcI4c4YMS6EbEg5yzG6YlwACmD24p+HS1QDK3dgDoDdrnUtZTcGAETH5j8pCXeD84qlKVEcJv2tc7bg71/dhXgQK2CT08IOtb/cFhdORuIBTByMfCc+FpkM6ddX62vCeLOOFP60TijBJ5rAqHlX+w== syntax@test.com\",\"path\":[\"public_key\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-20T21:52:19.154Z\",\"path\":[\"created_at\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/user__has__public_key"
+        },
+        "AJF": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/user__has__public_key/#ssh-keys-by-id",
+            "initialized": true,
+            "method": "get",
+            "name": "SSH Key - Get SSH key by ID",
+            "publish_as": "data",
+            "rank": 27,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AJF",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AJF\":{\"caption\":\"SSH Key - Get SSH key by ID\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AJF.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AJF.d\":{\"caption\":\"SSH Key - Get SSH key by ID d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":221858,\"path\":[\"id\"]},\"_p_user.__id\":{\"ret_value\":\"number\",\"caption\":\"user __id\",\"sample_value\":166683,\"path\":[\"user\",\"__id\"]},\"_p_user.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"user __deferred uri\",\"sample_value\":\"/resin/user(@id)?@id=166683\",\"path\":[\"user\",\"__deferred\",\"uri\"]},\"_p_title\":{\"ret_value\":\"text\",\"caption\":\"title\",\"sample_value\":\"Personal SSH Key\",\"path\":[\"title\"]},\"_p_public_key\":{\"ret_value\":\"text\",\"caption\":\"public_key\",\"sample_value\":\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvjrAuD2o0eJB2Fsuh/PccSosSCI70kHfIZ/hZau29wFjWr2IE0DMRtpTxADoeoyCjVVauN5lTNPHpZ3d57A6sHRzzWFWKj/4DYjTy2uKBfKj66sS2CG0X2eNXb8G84DuZ0QPjKKEiFNc5j/v+XoROgqbHusQZCCjnMHTUr/+qyrTLeiqDptT4s5FpnI2ww8wMEaEuYCsu/+PAXiBvvBuEvHbdUwwHI/3jcUEc9lFIUYlzWD+hCL8Dw/0WK/Hs6ZPd1LA7Mq6Eo3JBu8C3e3AAIbNLBOIrmyPFo7J/LUBMGNBAmfPIHJnjDhjLizn98VOV8OiofoSbIxbi5ZkZPoe0CaCXWQC4JcGNBYAcuzeshEWHQbMfHxP6dT+sj+S3qx+KuiE9XFzpH+wrBIhDyDl2WDdi+VZ93G5+V08ER6AYMFrdeIwVhfjSCyMlUYQbv1iWT4+yrb3sgfsX0YNEm5o4CJyKE2m7vcvClSSm3kyFyCyuygEjldudrGSrDI/bDkMoJE38csodDXXKZK74Xx4VfHcI4c4YMS6EbEg5yzG6YlwACmD24p+HS1QDK3dgDoDdrnUtZTcGAETH5j8pCXeD84qlKVEcJv2tc7bg71/dhXgQK2CT08IOtb/cFhdORuIBTByMfCc+FpkM6ddX62vCeLOOFP60TijBJ5rAqHlX+w== syntax@arbitraryy.com\",\"path\":[\"public_key\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-20T21:46:58.230Z\",\"path\":[\"created_at\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/user__has__public_key([ssh_key_id])",
+            "url_params": {
+                "AJP": {
+                    "doc": "ID of SSH key. Note this is returned as \"id\" in the \"Get all SSH Keys\" call.",
+                    "key": "ssh_key_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AJR": {
+            "body": "{\n    \"public_key\": \"<ssh_key>\",\n    \"title\": \"<title>\",\n    \"user\": \"<user_id>\"\n}",
+            "body_params": {
+                "AJZ": {
+                    "key": "ssh_key",
+                    "private": true,
+                    "value": ""
+                },
+                "AJd": {
+                    "doc": "Name identifier of the SSH key",
+                    "key": "title",
+                    "private": true,
+                    "value": ""
+                },
+                "AJg": {
+                    "doc": "ID of user you are adding ssh key to",
+                    "key": "user_id",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/user__has__public_key/#new-ssh-key",
+            "initialized": true,
+            "method": "post",
+            "name": "SSH Key - Add new SSH key to account",
+            "publish_as": "data",
+            "rank": 28,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AJR",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AJR\":{\"caption\":\"cURL Call\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":221861,\"path\":[\"id\"]},\"_p_user.__id\":{\"ret_value\":\"number\",\"caption\":\"user __id\",\"sample_value\":166683,\"path\":[\"user\",\"__id\"]},\"_p_user.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_title\":{\"ret_value\":\"text\",\"caption\":\"title\",\"sample_value\":\"TestKey\",\"path\":[\"title\"]},\"_p_public_key\":{\"ret_value\":\"text\",\"caption\":\"public_key\",\"sample_value\":\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvjrAuD2o0eJB2Fsuh/PccSosSCI70kHfIZ/hZau29wFjWr2IE0DMRtpTxADoeoyCjVVauN5lTNPHpZ3d57A6sHRzzWFWKj/4DYjTy2uKBfKj66sS2CG0X2eNXb8G84DuZ0QPjKKEiFNc5j/v+XoROgqbHusQZCCjnMHTUr/+qyrTLeiqDptT4s5FpnI2ww8wMEaEuYCsu/+PAXiBvvBuEvHbdUwwHI/3jcUEc9lFIUYlzWD+hCL8Dw/0WK/Hs6ZPd1LA7Mq6Eo3JBu8C3e3AAIbNLBOIrmyPFo7J/LUBMGNBAmfPIHJnjDhjLizn98VOV8OiofoSbIxbi5ZkZPoe0CaCXWQC4JcGNBYAcuzeshEWHQbMfHxP6dT+sj+S3qx+KuiE9XFzpH+wrBIhDyDl2WDdi+VZ93G5+V08ER6AYMFrdeIwVhfjSCyMlUYQbv1iWT4+yrb3sgfsX0YNEm5o4CJyKE2m7vcvClSSm3kyFyCyuygEjldudrGSrDI/bDkMoJE38csodDXXKZK74Xx4VfHcI4c4YMS6EbEg5yzG6YlwACmD24p+HS1QDK3dgDoDdrnUtZTcGAETH5j8pCXeD84qlKVEcJv2tc7bg71/dhXgQK2CT08IOtb/cFhdORuIBTByMfCc+FpkM6ddX62vCeLOOFP60TijBJ5rAqHlX+w== syntax@test.com\",\"path\":[\"public_key\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-20T21:52:19.154Z\",\"path\":[\"created_at\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/user__has__public_key"
+        },
+        "AJh": {
+            "body": "",
+            "data_type": "text",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "SSH Key - Remove SSH KKey",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 29,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/user__has__public_key([ssh_key_id])",
+            "url_params": {
+                "AJi": {
+                    "key": "ssh_key_id",
+                    "private": true,
+                    "value": "221861"
+                }
+            }
+        },
+        "AJl": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/release/#releases-in-application",
+            "initialized": true,
+            "method": "get",
+            "name": "Release - Get all releases for an application",
+            "publish_as": "data",
+            "rank": 38,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AJl",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AJl\":{\"caption\":\"Release - Get all releases for an application\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AJl.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AJl.d\":{\"caption\":\"Release - Get all releases for an application d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1771733,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-20T21:14:08.613Z\",\"path\":[\"created_at\"]},\"_p_belongs_to__application.__id\":{\"ret_value\":\"number\",\"caption\":\"belongs_to__application __id\",\"sample_value\":1818420,\"path\":[\"belongs_to__application\",\"__id\"]},\"_p_belongs_to__application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_is_created_by__user.__id\":{\"ret_value\":\"number\",\"caption\":\"is_created_by__user __id\",\"sample_value\":166683,\"path\":[\"is_created_by__user\",\"__id\"]},\"_p_is_created_by__user.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_commit\":{\"ret_value\":\"text\",\"caption\":\"commit\",\"sample_value\":\"a96f09e1bb3993f1e4b300095189378a\",\"path\":[\"commit\"]},\"_p_composition.version\":{\"ret_value\":\"text\",\"caption\":\"composition version\",\"sample_value\":\"2.1\",\"path\":[\"composition\",\"version\"]},\"_p_composition.services.stocks.hostname\":{\"ret_value\":\"text\",\"caption\":\"composition services stocks hostname\",\"sample_value\":\"stock-query\",\"path\":[\"composition\",\"services\",\"stocks\",\"hostname\"]},\"_p_composition.services.stocks.build.context\":{\"ret_value\":\"text\",\"caption\":\"composition services stocks build context\",\"sample_value\":\".\",\"path\":[\"composition\",\"services\",\"stocks\",\"build\",\"context\"]},\"_p_composition.services.stocks.build.dockerfile\":{\"ret_value\":\"text\",\"caption\":\"composition services stocks build dockerfile\",\"sample_value\":\"docker/stocks/Dockerfile.template\",\"path\":[\"composition\",\"services\",\"stocks\",\"build\",\"dockerfile\"]},\"_p_composition.services.stocks.privileged\":{\"ret_value\":\"boolean\",\"caption\":\"composition services stocks privileged\",\"sample_value\":true,\"path\":[\"composition\",\"services\",\"stocks\",\"privileged\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"success\",\"path\":[\"status\"]},\"_p_source\":{\"ret_value\":\"text\",\"caption\":\"source\",\"sample_value\":\"cloud\",\"path\":[\"source\"]},\"_p_build_log\":{\"ret_value\":\"text\",\"caption\":\"build_log\",\"sample_value\":\"[Info]     Starting build for casasil, user g_nicholas_squires\\n[Info]     Dashboard link: https://dashboard.balena-cloud.com/apps/1818420/devices\\n[Info]     Building on arm03\\n[Info]     Pulling previous images for caching purposes...\\n[Success]  Successfully pulled cache images\\n[Info]     Starting to build stocks\\n[Success]  Successfully built service stocks\\n[Info]     Uploading images\\n[Success]  Successfully uploaded images\\n[Info]     Built on arm03\\n[Success]  Release successfully created!\\n[Info]     Release: a96f09e1bb3993f1e4b300095189378a (id: 1771733)\\n[Info]     Build finished in 4 minutes, 33 seconds\",\"path\":[\"build_log\"]},\"_p_start_timestamp\":{\"ret_value\":\"text\",\"caption\":\"start_timestamp\",\"sample_value\":\"2021-04-20T21:14:08.588Z\",\"path\":[\"start_timestamp\"]},\"_p_end_timestamp\":{\"ret_value\":\"text\",\"caption\":\"end_timestamp\",\"sample_value\":\"2021-04-20T21:18:42.184Z\",\"path\":[\"end_timestamp\"]},\"_p_update_timestamp\":{\"ret_value\":\"text\",\"caption\":\"update_timestamp\",\"sample_value\":\"2021-04-20T21:18:47.809Z\",\"path\":[\"update_timestamp\"]},\"_p_is_invalidated\":{\"ret_value\":\"boolean\",\"caption\":\"is_invalidated\",\"sample_value\":false,\"path\":[\"is_invalidated\"]},\"_p_release_version\":{\"ret_value\":\"text\",\"caption\":\"release_version\",\"sample_value\":null,\"path\":[\"release_version\"]},\"_p_release_type\":{\"ret_value\":\"text\",\"caption\":\"release_type\",\"sample_value\":\"final\",\"path\":[\"release_type\"]},\"_p_is_passing_tests\":{\"ret_value\":\"boolean\",\"caption\":\"is_passing_tests\",\"sample_value\":true,\"path\":[\"is_passing_tests\"]},\"_p_contract\":{\"ret_value\":\"text\",\"caption\":\"contract\",\"sample_value\":null,\"path\":[\"contract\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/release?$filter=belongs_to__application%20eq%20[app_id]",
+            "url_params": {
+                "AJm": {
+                    "doc": "Balena application ID",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AJn": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/organization/#get-all-orgs",
+            "initialized": true,
+            "method": "get",
+            "name": "Organization - Get all organizations associated with authenticated user",
+            "publish_as": "data",
+            "rank": 40,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AJn",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AJn\":{\"caption\":\"Organization - Get all organizations associated with authenticated user\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AJn.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AJn.d\":{\"caption\":\"Organization - Get all organizations associated with authenticated user d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":152251,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2020-07-22T19:02:13.888Z\",\"path\":[\"created_at\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Modeselekt\",\"path\":[\"name\"]},\"_p_handle\":{\"ret_value\":\"text\",\"caption\":\"handle\",\"sample_value\":\"g_nicholas_squires\",\"path\":[\"handle\"]},\"_p_company_name\":{\"ret_value\":\"text\",\"caption\":\"company_name\",\"sample_value\":\"Modeselekt, LLC\",\"path\":[\"company_name\"]},\"_p_website\":{\"ret_value\":\"text\",\"caption\":\"website\",\"sample_value\":null,\"path\":[\"website\"]},\"_p_industry\":{\"ret_value\":\"text\",\"caption\":\"industry\",\"sample_value\":null,\"path\":[\"industry\"]},\"_p_billing_account_code\":{\"ret_value\":\"text\",\"caption\":\"billing_account_code\",\"sample_value\":null,\"path\":[\"billing_account_code\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/organization"
+        },
+        "AJo": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/organization/#org-by-id",
+            "initialized": true,
+            "method": "get",
+            "name": "Organization - Get organization by ID",
+            "publish_as": "data",
+            "rank": 41,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AJo",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AJo\":{\"caption\":\"Organization - Get organization by ID\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AJo.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AJo.d\":{\"caption\":\"Organization - Get organization by ID d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":152251,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2020-07-22T19:02:13.888Z\",\"path\":[\"created_at\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Modeselekt\",\"path\":[\"name\"]},\"_p_handle\":{\"ret_value\":\"text\",\"caption\":\"handle\",\"sample_value\":\"g_nicholas_squires\",\"path\":[\"handle\"]},\"_p_company_name\":{\"ret_value\":\"text\",\"caption\":\"company_name\",\"sample_value\":\"Modeselekt, LLC\",\"path\":[\"company_name\"]},\"_p_website\":{\"ret_value\":\"text\",\"caption\":\"website\",\"sample_value\":null,\"path\":[\"website\"]},\"_p_industry\":{\"ret_value\":\"text\",\"caption\":\"industry\",\"sample_value\":null,\"path\":[\"industry\"]},\"_p_billing_account_code\":{\"ret_value\":\"text\",\"caption\":\"billing_account_code\",\"sample_value\":null,\"path\":[\"billing_account_code\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/organization([org_id])",
+            "url_params": {
+                "AJp": {
+                    "doc": "Organization ID. Note this value is returned as \"id\" in \"Get all organizations\" call",
+                    "key": "org_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AJq": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/organization/#org-by-handle",
+            "initialized": true,
+            "method": "get",
+            "name": "Organization - Get organization by handle",
+            "publish_as": "data",
+            "rank": 42,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AJq",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AJq\":{\"caption\":\"Organization - Get organization by handle\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AJq.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AJq.d\":{\"caption\":\"Organization - Get organization by handle d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":152251,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2020-07-22T19:02:13.888Z\",\"path\":[\"created_at\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Modeselekt\",\"path\":[\"name\"]},\"_p_handle\":{\"ret_value\":\"text\",\"caption\":\"handle\",\"sample_value\":\"g_nicholas_squires\",\"path\":[\"handle\"]},\"_p_company_name\":{\"ret_value\":\"text\",\"caption\":\"company_name\",\"sample_value\":\"Modeselekt, LLC\",\"path\":[\"company_name\"]},\"_p_website\":{\"ret_value\":\"text\",\"caption\":\"website\",\"sample_value\":null,\"path\":[\"website\"]},\"_p_industry\":{\"ret_value\":\"text\",\"caption\":\"industry\",\"sample_value\":null,\"path\":[\"industry\"]},\"_p_billing_account_code\":{\"ret_value\":\"text\",\"caption\":\"billing_account_code\",\"sample_value\":null,\"path\":[\"billing_account_code\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/organization?$filter=handle%20eq%20'[org_handle]'",
+            "url_params": {
+                "AKB": {
+                    "doc": "A user's \"handle\" is also their Balena user_id (e.g. g_user_name)",
+                    "key": "org_handle",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AKC": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/service_environment_variable/#get-fleet-service-vars",
+            "initialized": true,
+            "method": "get",
+            "name": "Fleet service variable - Get all fleet service variables for a service",
+            "publish_as": "data",
+            "rank": 43,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AKC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AKC\":{\"caption\":\"Fleet service variable - Get all fleet service variables for a service\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AKC.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AKC.d\":{\"caption\":\"Fleet service variable - Get all fleet service variables for a service d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":116316,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-21T00:17:57.336Z\",\"path\":[\"created_at\"]},\"_p_service.__id\":{\"ret_value\":\"number\",\"caption\":\"service __id\",\"sample_value\":1025177,\"path\":[\"service\",\"__id\"]},\"_p_service.__deferred.uri\":{\"ret_value\":\"text\",\"caption\":\"service __deferred uri\",\"sample_value\":\"/resin/service(@id)?@id=1025177\",\"path\":[\"service\",\"__deferred\",\"uri\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"testvar\",\"path\":[\"name\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"12345\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/service_environment_variable?$filter=service%20eq%20[service_id]",
+            "url_params": {
+                "AKD": {
+                    "doc": "The ID of the service in an application. Note this is returned as \"id\" in \"Get Get all services belonging to an application\" call.",
+                    "key": "service_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AKE": {
+            "body": "{\n    \"service\": \"<service_id>\",\n    \"name\": \"<name>\",\n    \"value\": \"<value>\"\n}",
+            "body_params": {
+                "AKR": {
+                    "doc": "The ID of the service in an application. Note this is returned as \"id\" in \"Get Get all services belonging to an application\" call.",
+                    "key": "service_id",
+                    "private": true,
+                    "value": ""
+                },
+                "AKV": {
+                    "doc": "Name of the service variable to create",
+                    "key": "name",
+                    "private": true,
+                    "value": ""
+                },
+                "AKf": {
+                    "doc": "Value for this new variable. ",
+                    "key": "value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/service_environment_variable/#create-fleet-service-var",
+            "initialized": true,
+            "method": "post",
+            "name": "Fleet service variable - Create a fleet service variable",
+            "publish_as": "data",
+            "rank": 44,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AKE",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AKE\":{\"caption\":\"Fleet service variable - Create a fleet service variable\",\"fields\":{\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-21T14:28:59.341Z\",\"path\":[\"created_at\"]},\"_p_service.__id\":{\"ret_value\":\"number\",\"caption\":\"service __id\",\"sample_value\":1025177,\"path\":[\"service\",\"__id\"]},\"_p_service.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"AnotherTestVar\",\"path\":[\"name\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"10110\",\"path\":[\"value\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":116472,\"path\":[\"id\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/service_environment_variable"
+        },
+        "AKg": {
+            "body": "{\n    \"value\": \"<new_value>\"\n}",
+            "body_params": {
+                "AKs": {
+                    "doc": "New variable value.",
+                    "key": "new_value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/service_environment_variable/#update-fleet-service-var",
+            "initialized": true,
+            "method": "patch",
+            "name": "Fleet service variable - Update a device service variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 45,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/service_environment_variable([svc_var_id])",
+            "url_params": {
+                "ALC": {
+                    "doc": "The ID of the service variable you want to change. This value is returned as \"id\" in the \"Get all fleet service variables for a service\" call.",
+                    "key": "svc_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ALE": {
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/service_environment_variable/#delete-fleet-service-var",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Fleet service variable - Remove a fleet service variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 46,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/service_environment_variable([svc_var_id])",
+            "url_params": {
+                "ALP": {
+                    "doc": "ID of service variable you want to remove.",
+                    "key": "svc_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ALQ": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_environment_variable/#get-fleet-env-vars",
+            "initialized": true,
+            "method": "get",
+            "name": "Fleet environment variable - Get all fleet environment variables for an application",
+            "publish_as": "data",
+            "rank": 47,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.ALQ",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ALQ\":{\"caption\":\"Fleet environment variable - Get all fleet environment variables for an application\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.ALQ.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.ALQ.d\":{\"caption\":\"Fleet environment variable - Get all fleet environment variables for an application d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":385055,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-21T14:48:30.319Z\",\"path\":[\"created_at\"]},\"_p_application.__id\":{\"ret_value\":\"number\",\"caption\":\"application __id\",\"sample_value\":1818420,\"path\":[\"application\",\"__id\"]},\"_p_application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Test123\",\"path\":[\"name\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"321\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/application_environment_variable?$filter=application%20eq%20[app_id]",
+            "url_params": {
+                "ALR": {
+                    "doc": "Balena Application ID",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ALS": {
+            "body": "{\n    \"application\": \"<app_id>\",\n    \"name\": \"<name>\",\n    \"value\": \"<value>\"\n}",
+            "body_params": {
+                "ALb": {
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                },
+                "ALe": {
+                    "doc": "Name",
+                    "key": "name",
+                    "private": true,
+                    "value": ""
+                },
+                "ALi": {
+                    "doc": "Value",
+                    "key": "value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_environment_variable/#create-fleet-env-var",
+            "initialized": true,
+            "method": "post",
+            "name": "Fleet environment variable - Create fleet environment variable",
+            "publish_as": "data",
+            "rank": 48,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.ALS",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ALS\":{\"caption\":\"Fleet environment variable - Create fleet environment variable\",\"fields\":{\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-21T14:51:31.750Z\",\"path\":[\"created_at\"]},\"_p_application.__id\":{\"ret_value\":\"number\",\"caption\":\"application __id\",\"sample_value\":1818420,\"path\":[\"application\",\"__id\"]},\"_p_application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"cyclical\",\"path\":[\"name\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":385056,\"path\":[\"id\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"baller 17\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/application_environment_variable"
+        },
+        "ALj": {
+            "body": "{\n    \"value\": \"<new_value>\"\n}",
+            "body_params": {
+                "ALt": {
+                    "doc": "New value",
+                    "key": "new_value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_environment_variable/#update-fleet-env-var",
+            "initialized": true,
+            "method": "patch",
+            "name": "Fleet environment variable - Update a fleet environment variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 49,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/application_environment_variable([env_var_id])",
+            "url_params": {
+                "ALq": {
+                    "doc": "ID of environment variable you want to update. Value can be obtained from the \" Get all fleet environment variables for an application\" call.",
+                    "key": "env_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ALu": {
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_environment_variable/#delete-fleet-env-var",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Fleet environment variable - Remove a fleet environment variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 50,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/application_environment_variable([env_var_id])",
+            "url_params": {
+                "ALw": {
+                    "doc": "ID of environment variable you want to update. Value can be obtained from the \" Get all fleet environment variables for an application\" call.",
+                    "key": "env_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ALx": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_config_variable/#get-fleet-config-vars",
+            "initialized": true,
+            "method": "get",
+            "name": "Fleet config variable - Get all fleet config variables for an application",
+            "publish_as": "data",
+            "rank": 51,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.ALx",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ALx\":{\"caption\":\"Fleet config variable - Get all fleet config variables for an application\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.ALx.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.ALx.d\":{\"caption\":\"Fleet config variable - Get all fleet config variables for an application d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1408505,\"path\":[\"id\"]},\"_p_application.__id\":{\"ret_value\":\"number\",\"caption\":\"application __id\",\"sample_value\":1818420,\"path\":[\"application\",\"__id\"]},\"_p_application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"RESIN_SUPERVISOR_DELTA_VERSION\",\"path\":[\"name\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"3\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/application_config_variable?$filter=application%20eq%20[app_id]",
+            "url_params": {
+                "AMA": {
+                    "doc": "Balena application ID",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AMB": {
+            "body": "{\n    \"application\": \"<app_id>\",\n    \"name\": \"<name>\",\n    \"value\": \"<value>\"\n}",
+            "body_params": {
+                "AMG": {
+                    "doc": "Balena application ID",
+                    "key": "app_id",
+                    "private": true,
+                    "value": ""
+                },
+                "AMJ": {
+                    "doc": "BalenaOS configuration variables that begin with either BALENA_ or RESIN_ and are used to configure balenaOS features. They must be named as per the documentation:\n\nhttps://www.balena.io/docs/learn/manage/configuration/\n\ne.g. BALENA_HOST_CONFIG_start_x",
+                    "key": "name",
+                    "private": true,
+                    "value": ""
+                },
+                "AML": {
+                    "doc": "BalenaOS configuration variables that begin with either BALENA_ or RESIN_ and are used to configure balenaOS features. They must be named as per the documentation:\n\nhttps://www.balena.io/docs/learn/manage/configuration/",
+                    "key": "value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_config_variable/#create-fleet-config-var",
+            "initialized": true,
+            "method": "post",
+            "name": "Fleet config variable - Create a fleet config variable",
+            "publish_as": "data",
+            "rank": 52,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AMB",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AMB\":{\"caption\":\"Fleet config variable - Create a fleet config variable\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1413005,\"path\":[\"id\"]},\"_p_application.__id\":{\"ret_value\":\"number\",\"caption\":\"application __id\",\"sample_value\":1818420,\"path\":[\"application\",\"__id\"]},\"_p_application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"BALENA_HOST_CONFIG_start_x\",\"path\":[\"name\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"12345\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/application_config_variable"
+        },
+        "AMM": {
+            "body": "{\n    \"value\": \"<new_value>\"\n}",
+            "body_params": {
+                "AMg": {
+                    "doc": "New value.",
+                    "key": "new_value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_config_variable/#update-fleet-config-var",
+            "initialized": true,
+            "method": "patch",
+            "name": "Fleet config variable - Update a fleet environment variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 53,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/application_config_variable([cfg_var_id])",
+            "url_params": {
+                "AMW": {
+                    "doc": "Configuration variable ID to update. Retrieve the ID from \"Get all fleet config variables for an application\" call.",
+                    "key": "cfg_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AMh": {
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/application_config_variable/#delete-fleet-config-var",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Fleet config variable - Remove a fleet config variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 54,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AMh",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AMh\":{\"caption\":\"API Call\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AMh.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AMh.d\":{\"caption\":\"API Call d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":1413002,\"path\":[\"id\"]},\"_p_application.__id\":{\"ret_value\":\"number\",\"caption\":\"application __id\",\"sample_value\":1818420,\"path\":[\"application\",\"__id\"]},\"_p_application.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"BALENA_HOST_CONFIG_meh1\",\"path\":[\"name\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"F12\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/application_config_variable([cfg_var_id])",
+            "url_params": {
+                "AMr": {
+                    "doc": "Configuration variable ID to update. Retrieve the ID from \"Get all fleet config variables for an application\" call.",
+                    "key": "cfg_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AMs": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_tag/#get-tags",
+            "initialized": true,
+            "method": "get",
+            "name": "Device Tag - Get all tags by device UUID",
+            "publish_as": "data",
+            "rank": 55,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AMs",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AMs\":{\"caption\":\"Device Tag - Get all tags by device UUID\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AMs.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AMs.d\":{\"caption\":\"Device Tag - Get all tags by device UUID d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":281164290,\"path\":[\"id\"]},\"_p_device.__id\":{\"ret_value\":\"number\",\"caption\":\"device __id\",\"sample_value\":4197064,\"path\":[\"device\",\"__id\"]},\"_p_device.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_tag_key\":{\"ret_value\":\"text\",\"caption\":\"tag_key\",\"sample_value\":\"Test\",\"path\":[\"tag_key\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"this\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/device_tag?$filter=device/uuid%20eq%20'[device_uuid]'",
+            "url_params": {
+                "ANH": {
+                    "doc": "A device UUID",
+                    "key": "device_uuid",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ANI": {
+            "body": "{\n    \"device\": \"<device_id>\",\n    \"tag_key\": \"<key>\",\n    \"value\": \"<value>\"\n}",
+            "body_params": {
+                "ANY": {
+                    "doc": "Returned as \"device__id\" in the \"Get all tags by device UUID\" call.",
+                    "key": "device_id",
+                    "private": true,
+                    "value": ""
+                },
+                "ANb": {
+                    "key": "key",
+                    "private": true,
+                    "value": ""
+                },
+                "ANg": {
+                    "doc": "",
+                    "key": "value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_tag/#create-tag",
+            "initialized": true,
+            "method": "post",
+            "name": "Device Tag - Create a new device tag",
+            "publish_as": "data",
+            "rank": 56,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.ANI",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ANI\":{\"caption\":\"Device Tag - Create a new device tag\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":281602941,\"path\":[\"id\"]},\"_p_device.__id\":{\"ret_value\":\"number\",\"caption\":\"device __id\",\"sample_value\":4197064,\"path\":[\"device\",\"__id\"]},\"_p_device.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_tag_key\":{\"ret_value\":\"text\",\"caption\":\"tag_key\",\"sample_value\":\"YATT\",\"path\":[\"tag_key\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"9876\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/device_tag"
+        },
+        "AOM": {
+            "body": "",
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_tag/#delete-tag",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Device Tag - Delete a device tag given its database ID",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 57,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/device_tag([tag_id])",
+            "url_params": {
+                "AOT": {
+                    "doc": "Tag ID, returned as \"id\" from \"Get all device tags by UUID\" call",
+                    "key": "tag_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AOU": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_service_environment_variable/#get-device-service-vars",
+            "initialized": true,
+            "method": "get",
+            "name": "Device service variable - Get all service variables for a device",
+            "publish_as": "data",
+            "rank": 58,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AOU",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AOU\":{\"caption\":\"Device service variable - Get all service variables for a device\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AOU.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AOU.d\":{\"caption\":\"Device service variable - Get all service variables for a device d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":562859,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-21T16:21:37.974Z\",\"path\":[\"created_at\"]},\"_p_service_install.__id\":{\"ret_value\":\"number\",\"caption\":\"service_install __id\",\"sample_value\":2761178,\"path\":[\"service_install\",\"__id\"]},\"_p_service_install.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"var\",\"path\":[\"value\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"test\",\"path\":[\"name\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/device_service_environment_variable?$filter=service_install/device%20eq%20[device_id]",
+            "url_params": {
+                "AOd": {
+                    "doc": "Device ID (not UUID). You can get this value via call to \"Get device by UUID\". Return parameter \"id\" is the device_id used here. ",
+                    "key": "device_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AOe": {
+            "body": "{\n    \"service_install\": \"<svc_install_id>\",\n    \"name\": \"<name>\",\n    \"value\": \"<value>\"\n}",
+            "body_params": {
+                "AOv": {
+                    "doc": "This value can be retrieved from \"Get all service variables for a device\" call as \"service_install__id\"",
+                    "key": "svc_install_id",
+                    "private": true,
+                    "value": ""
+                },
+                "AOz": {
+                    "doc": "New device service variable name",
+                    "key": "name",
+                    "private": true,
+                    "value": ""
+                },
+                "APE": {
+                    "doc": "New device service variable value",
+                    "key": "value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_service_environment_variable/#create-device-service-var",
+            "initialized": true,
+            "method": "post",
+            "name": "Device service variable - Create a device service variabl",
+            "publish_as": "data",
+            "rank": 59,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AOe",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AOe\":{\"caption\":\"Device service variable - Create a device service variabl\",\"fields\":{\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-21T16:38:47.232Z\",\"path\":[\"created_at\"]},\"_p_service_install.__id\":{\"ret_value\":\"number\",\"caption\":\"service_install __id\",\"sample_value\":2761178,\"path\":[\"service_install\",\"__id\"]},\"_p_service_install.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"1234\",\"path\":[\"value\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":562860,\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"anTe\",\"path\":[\"name\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/device_service_environment_variable"
+        },
+        "APF": {
+            "body": "{\n    \"value\": \"<new_value>\"\n}",
+            "body_params": {
+                "APa": {
+                    "doc": "New value to update",
+                    "key": "new_value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_service_environment_variable/#update-device-service-var",
+            "initialized": true,
+            "method": "patch",
+            "name": "Device service variable - Update a device service variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 60,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/device_service_environment_variable([svc_var_id])",
+            "url_params": {
+                "APP": {
+                    "doc": "Service variable ID to update. May be retrieved as \"id\" from \"Get all service variables for a device\"",
+                    "key": "svc_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "APb": {
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_service_environment_variable/#delete-device-service-var",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Device service variable - Remove a device service variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 61,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/device_service_environment_variable([svc_var_id])",
+            "url_params": {
+                "APc": {
+                    "key": "svc_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "APd": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_environment_variable/#get-device-env-vars",
+            "initialized": true,
+            "method": "get",
+            "name": "Device Environment Variable - Get all device environment variables for a device",
+            "publish_as": "data",
+            "rank": 62,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.APd",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.APd\":{\"caption\":\"Device Environment Variable - Get all device environment variables for a device\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.APd.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.APd.d\":{\"caption\":\"Device Environment Variable - Get all device environment variables for a device d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":726585,\"path\":[\"id\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-21T17:01:04.767Z\",\"path\":[\"created_at\"]},\"_p_device.__id\":{\"ret_value\":\"number\",\"caption\":\"device __id\",\"sample_value\":4197064,\"path\":[\"device\",\"__id\"]},\"_p_device.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"anudda\",\"path\":[\"name\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"one\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/device_environment_variable?$filter=device%20eq%20[device_id]",
+            "url_params": {
+                "APe": {
+                    "doc": "Device ID. Returned as \"id\" by call to \"Get device by UUID\"",
+                    "key": "device_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "APf": {
+            "body": "{\n    \"device\": \"<device_id>\",\n    \"name\": \"<name>\",\n    \"value\": \"<value>\"\n}",
+            "body_params": {
+                "APr": {
+                    "doc": "Device ID. Returned as \"id\" by call to \"Get device by UUID\"",
+                    "key": "device_id",
+                    "private": true,
+                    "value": ""
+                },
+                "APv": {
+                    "doc": "Variable name",
+                    "key": "name",
+                    "private": true,
+                    "value": ""
+                },
+                "AQA": {
+                    "doc": "Variable value",
+                    "key": "value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_environment_variable/#create-device-env-var",
+            "initialized": true,
+            "method": "post",
+            "name": "Device Environmet Variable - Create a device environment variable",
+            "publish_as": "data",
+            "rank": 63,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.APf",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.APf\":{\"caption\":\"Device Environmet Variable - Create a device environment variable\",\"fields\":{\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-04-21T17:04:11.279Z\",\"path\":[\"created_at\"]},\"_p_device.__id\":{\"ret_value\":\"number\",\"caption\":\"device __id\",\"sample_value\":4197064,\"path\":[\"device\",\"__id\"]},\"_p_device.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"xyz\",\"path\":[\"name\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":726587,\"path\":[\"id\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"123\",\"path\":[\"value\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/device_environment_variable"
+        },
+        "AQB": {
+            "body": "{\n    \"value\": \"<new_value>\"\n}",
+            "body_params": {
+                "AQa": {
+                    "doc": "New value",
+                    "key": "new_value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_environment_variable/#update-device-env-var",
+            "initialized": true,
+            "method": "patch",
+            "name": "Device Environment Variable - Update a device environment variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 64,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/device_environment_variable([device_env_var_id])",
+            "url_params": {
+                "AQd": {
+                    "doc": "ID of the environment variable to update. Returned as \"id\" from \"Get all device environment variables from device\" call. ",
+                    "key": "device_env_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AQe": {
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_environment_variable/#delete-device-env-var",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Device Environment Variable - Remove a device environment variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 65,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/device_environment_variable([device_env_var_id])",
+            "url_params": {
+                "AQf": {
+                    "doc": "ID of the environment variable to update. Returned as \"id\" from \"Get all device environment variables from device\" call. ",
+                    "key": "device_env_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AQg": {
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_config_variable/#get-device-config-vars",
+            "initialized": true,
+            "method": "get",
+            "name": "Device config variable - Get all device config variables for a device",
+            "publish_as": "data",
+            "rank": 66,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AQg",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AQg\":{\"caption\":\"Device config variable - Get all device config variables for a device\",\"fields\":{\"_p_d\":{\"ret_value\":\"list.api.1618348114974x256471691476074500.plugin_api.AQg.d\",\"caption\":\"d\",\"path\":[\"d\"]}}},\"plugin_api.AQg.d\":{\"caption\":\"Device config variable - Get all device config variables for a device d\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":2436180,\"path\":[\"id\"]},\"_p_device.__id\":{\"ret_value\":\"number\",\"caption\":\"device __id\",\"sample_value\":4197064,\"path\":[\"device\",\"__id\"]},\"_p_device.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"1\",\"path\":[\"value\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"RESIN_HOST_CONFIG_arm_64bit\",\"path\":[\"name\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/device_config_variable?$filter=device%20eq%20[device_id]",
+            "url_params": {
+                "AQp": {
+                    "key": "device_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AQq": {
+            "body": "{\n    \"device\": \"<device_id>\",\n    \"name\": \"<name>\",\n    \"value\": \"<value>\"\n}",
+            "body_params": {
+                "ARC": {
+                    "doc": "Device ID. Returned as \"id\" by call to \"Get device by UUID\"",
+                    "key": "device_id",
+                    "private": true,
+                    "value": ""
+                },
+                "ARF": {
+                    "doc": "BalenaOS configuration variables that begin with either BALENA_ or RESIN_ and are used to configure balenaOS features. They must be named as per the documentation:\n\nhttps://www.balena.io/docs/learn/manage/configuration/\n\ne.g. BALENA_HOST_CONFIG_start_x",
+                    "key": "name",
+                    "private": true,
+                    "value": ""
+                },
+                "ARK": {
+                    "doc": "BalenaOS configuration variables that begin with either BALENA_ or RESIN_ and are used to configure balenaOS features. They must be named as per the documentation:\n\nhttps://www.balena.io/docs/learn/manage/configuration/",
+                    "key": "value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Device config variable - Create a device config variable",
+            "publish_as": "data",
+            "rank": 67,
+            "ret_value": "api.1618348114974x256471691476074500.plugin_api.AQq",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AQq\":{\"caption\":\"Device config variable - Create a device config variable\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":2457153,\"path\":[\"id\"]},\"_p_device.__id\":{\"ret_value\":\"number\",\"caption\":\"device __id\",\"sample_value\":4197064,\"path\":[\"device\",\"__id\"]},\"_p_device.__deferred.uri\":{\"ret_value\":\"_ignore\"},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"1010\",\"path\":[\"value\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"BALENA_HOST_CONFIG_start_x\",\"path\":[\"name\"]},\"_p___metadata.uri\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.balena-cloud.com/v6/device_config_variable"
+        },
+        "ARL": {
+            "body": "{\n    \"value\": \"<new_value>\"\n}",
+            "body_params": {
+                "ARm": {
+                    "doc": "New value",
+                    "key": "new_value",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_config_variable/#update-device-config-var",
+            "initialized": true,
+            "method": "patch",
+            "name": "Device config variable - Update a device config variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 68,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/device_config_variable([device_cfg_var_id])",
+            "url_params": {
+                "ARc": {
+                    "doc": "ID of the device config variable to update. Returned as \"id\" by call to Get all device config variables for a device. ",
+                    "key": "device_cfg_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ARn": {
+            "data_type": "text",
+            "doc_link": "https://www.balena.io/docs/reference/api/resources/device_config_variable/#delete-device-config-var",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Device config variable - Remove a device config variable",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 69,
+            "should_reinitialize": true,
+            "url": "https://api.balena-cloud.com/v6/device_config_variable([device_cfg_var_id])",
+            "url_params": {
+                "ARo": {
+                    "doc": "ID of the device config variable to update. Returned as \"id\" by call to Get all device config variables for a device. ",
+                    "key": "device_cfg_var_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        }
+    },
+    "human": "Balena.io API",
+    "shared_headers": {
+        "AAI": {
+            "key": "Content-Type",
+            "private": true,
+            "value": "application/json",
+            "visibility": "hidden"
+        }
+    },
+    "token_param_name": "Authorization"
+}
