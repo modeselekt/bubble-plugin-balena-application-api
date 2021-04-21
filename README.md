@@ -1,4 +1,4 @@
-This is a repository based on the [Bubble](https://bubble.io) plugin 'bubbalena.io'.
+This is a repository based on the [Bubble](https://bubble.io) plugin 'bubbalena.io' (Bubble + Balena) ¯\_(ツ)_/¯.
 
 "Balena is a complete set of tools for building, deploying, and managing fleets of connected Linux devices." More info on the Balena platform can be found here:
 https://www.balena.io/what-is-balena 
