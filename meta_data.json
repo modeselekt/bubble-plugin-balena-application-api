@@ -6,7 +6,7 @@
     "description": "API connector to the Balena.io platform.  \n\n\"Balena is a complete set of tools for building, deploying, and managing fleets of connected Linux devices.\"\n\nMore info on the Balena platform can be found here? \nhttps://www.balena.io/what-is-balena \n\nAPI Overview: https://www.balena.io/docs/reference/api/overview/\n\nApplication API: https://www.balena.io/docs/reference/api/resources/application/",
     "image": "//s3.amazonaws.com/appforest_uf/f1618348767306x124100815683918960/bubbalena.io_logo.png",
     "license": "open_source",
-    "link": "https://modeselekt.com",
+    "link": "https://github.com/ArbitraryY/Bubble-Plugin-bubbalena.io",
     "name": "Bubbalena - Balena Application API",
     "plugin_instructions": "Plugin Setup:\n\n1. Generate Balena Cloud API key. Log into your Balena cloud account at https://balena.io. Navigate to your account --> Preferences --> Access Tokens --> Create API Key\n2. Enter API key in the plugin setup page\n\nUsage:\n\n1. Calls that return lists of objects are called \"d\". When building repeating groups with these returned values, make sure to reference this value. "
 }
