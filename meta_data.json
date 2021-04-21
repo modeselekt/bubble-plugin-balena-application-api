@@ -8,5 +8,5 @@
     "license": "open_source",
     "link": "https://github.com/ArbitraryY/bubbalena-application-api",
     "name": "Bubbalena - Balena Application API",
-    "plugin_instructions": "Plugin Setup:\n\n1. Generate Balena Cloud API key. Log into your Balena cloud account at https://balena.io. Navigate to your account --> Preferences --> Access Tokens --> Create API Key\n2. Enter API key in the plugin setup page\n\nUsage:\n\n1. Calls that return lists of objects are called \"d\". When building repeating groups with these returned values, make sure to reference this value. "
+    "plugin_instructions": "Prerequisites:\n1. Must have \"API Connector\" plugin installed\n\nPlugin Setup:\n\n1. Generate Balena Cloud API key. Log into your Balena cloud account at https://balena.io. Navigate to your account --> Preferences --> Access Tokens --> Create API Key\n2. Enter API key in the plugin setup page as shown below:\n\nBearer {YOUR_API_TOKEN}\n\nUsage:\n\n1. Calls that return lists of objects are called \"d\". When building repeating groups with these returned values, make sure to reference this value. "
 }
