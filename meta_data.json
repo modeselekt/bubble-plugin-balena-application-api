@@ -8,5 +8,6 @@
     "license": "open_source",
     "link": "https://github.com/ArbitraryY/bubble-plugin-balena-application-api",
     "name": "Balena Application API",
-    "plugin_instructions": "Setup:\n\n1. Generate Balena Cloud API key. Log into your Balena cloud account at https://balena.io. Navigate to your account --> Preferences --> Access Tokens --> Create API Key\n2. Enter API key in the plugin setup page as shown below:\n\nBearer {YOUR_API_TOKEN}\n\nUsage:\n\nThe demo Bubble App should be helpful to get you going. If you need more help configuring or running, feel free to reach out our check/contribute here: \n\nhttps://github.com/ArbitraryY/bubbalena-application-api/wiki"
+    "plugin_instructions": "Setup:\n\n1. Generate Balena Cloud API key. Log into your Balena cloud account at https://balena.io. Navigate to your account --> Preferences --> Access Tokens --> Create API Key\n2. Enter API key in the plugin setup page as shown below:\n\nBearer {YOUR_API_TOKEN}\n\nUsage:\n\nThe demo Bubble App should be helpful to get you going. If you need more help configuring or running, feel free to reach out our check/contribute here: \n\nhttps://github.com/ArbitraryY/bubbalena-application-api/wiki",
+    "sa_node_version": 18
 }
